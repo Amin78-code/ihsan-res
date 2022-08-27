@@ -6,7 +6,7 @@ import Hero from "../components/book-appointment/hero/Hero";
 import hands from "../assets/images/services/hands.svg";
 import engagement from "../assets/images/services/engagement.svg";
 import { useEffect, useState } from "react";
-import teacher1 from "../assets/images/appointment/image1.png";
+import teacher1 from "../assets/images/appointment/Image1.png";
 // import teacher2 from "../assets/images/appointment/image2.png";
 // import teacher3 from "../assets/images/appointment/image3.png";
 
