@@ -8,7 +8,7 @@ const Content = ({ data, pb }) => {
   console.log("data?.profileImg?.src", data?.profileImg?.src);
   return (
     <section
-      className={`w-full pt-[40px] md:pt-[140px] lg:pt-[100px] pb-[30px] md:pb-[140px] bg-[#fff] relativ e ${
+      className={`w-full pt-[40px] md:pt-[100px] pb-[30px] md:pb-[140px] bg-[#fff] relativ e ${
         pb ? "pb-[300px]" : ""
       }`}
     >
@@ -22,13 +22,13 @@ const Content = ({ data, pb }) => {
               {data.designation}
             </h5>
 
-            <p className="text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#555555] pt-[15px] md:pt-[35px]">
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#555555] pt-[10px] md:pt-[20px]">
               {data?.paragraph1}
             </p>
-            <p className="text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#555555] pt-[15px] md:pt-[35px]">
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#555555] pt-[10px] md:pt-[20px]">
               {data?.paragraph2}
             </p>
-            <p className="text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#555555] pt-[15px] md:pt-[35px]">
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#555555] pt-[10px] md:pt-[20px]">
               {data?.paragraph3}
             </p>
           </div>
@@ -42,7 +42,7 @@ const Content = ({ data, pb }) => {
               <div className="img_contain er">
                 <span className="inline-block relative z-[3] ">
                   <Image src={data?.profileImg} />
-                  <div className="before:z-[-1] before:w-[58px] md:before:w-[200px] relative before:h-[58px] md:before:h-[200px] before:bg-[#AE8B5C] before:rounded-[100px] before:right-[0] md:before:right-[-5%] lg:before:right-[-35px] before:bottom-0 md:before:bottom-[-50px] before:absolute"></div>
+                  <div className="before:z-[-1] before:w-[58px] md:before:w-[160px] relative before:h-[58px] md:before:h-[160px] before:bg-[#AE8B5C] before:rounded-[100px] before:right-[0] md:before:right-[-5%] lg:before:right-[-35px] before:bottom-0 md:before:bottom-[-50px] before:absolute"></div>
                 </span>
               </div>
             </div>

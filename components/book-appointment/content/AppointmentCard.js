@@ -5,7 +5,7 @@ import { data } from "autoprefixer";
 
 const AppointmentCard = ({ appointment }) => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row">
+    <div className="flex flex-col-reverse lg:flex-row  ">
       <div className="w-full lg:max-w-[410px]">
         <div className="">
           {appointment?.profileImg && (
@@ -14,11 +14,11 @@ const AppointmentCard = ({ appointment }) => {
               width={appointment?.profileImg?.width}
               height={appointment?.profileImg?.height}
             />
-          )}{" "}
+          )} 
         </div>
       </div>
 
-      <div className="w-full   pl-[30px]">
+      <div className="w-full pl-0 lg:pl-[30px] mb-[30px] lg:mb-0">
         <h1 className="fpr text-[32px] md:text-[42px] leading-[32px] md:leading-[42px]  text-[#182657]  ">
           {appointment.name}
         </h1>
@@ -26,7 +26,7 @@ const AppointmentCard = ({ appointment }) => {
           {appointment.designation}
         </h5>
 
-        <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  text-[#555555] pt-[5px] md:pt-[10px]">
+        <p className="fgr max-w-[756px] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  text-[#555555] pt-[5px] md:pt-[10px]">
           {appointment.description}
         </p>
         <Link href="#">
@@ -51,6 +51,7 @@ const AppointmentCard = ({ appointment }) => {
               );
             })}
           </div>
+          <li className="fgr font-[600] relative top-[-50px] float-right text-[#fff] transition-all duration-300 text-[12px] md:text-[16px] py-[15px] xl:py-[30px]"><a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[25px] py-[10px] hover:opacity-[.8]" href="https://calendly.com/farhan-ahmed/couples-session?month=2022-09"  target="_blank" without rel="noreferrer" >Schedule Now</a></li>
         </div>
       </div>
     </div>

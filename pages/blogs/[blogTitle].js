@@ -7,14 +7,17 @@ import engagement from "../../assets/images/services/engagement.svg";
 import { useEffect, useState } from "react";
 import TextImg from "../../components/blog-details/textImg";
 import Hero from "../../components/blog-details/hero/Hero";
-
 import anxiety from "../../assets/images/blogs/Anxiety-Management-image1-blog1.jpg";
 import anxiety2 from "../../assets/images/blogs/Anxiety-Management-image2-blog1.jpg";
 import parentCoaching1 from "../../assets/images/blogs/Parent-Coaching-blog-image-2.jpg";
 import parentCoaching2 from "../../assets/images/blogs/Parent-Coaching-blog-image-3.jpg";
 
-const heroContent = {
+const heroContentAnxiety = {
   title: "Anxiety Management Techniques",
+  paragraph1: "August 26, 2022",
+};
+const heroContentParenting = {
+  title: "Parenting Management Techniques",
   paragraph1: "August 26, 2022",
 };
 const AnxietyManagement = [
@@ -152,7 +155,7 @@ export default function BookAppointment({ blogTitle }) {
     <Layout>
       {blogTitle == "anxiety-management-techniques" ? (
         <>
-          <Hero data={heroContent}   />
+          <Hero data={heroContentAnxiety}   />
           <TextImg
             data={AnxietyManagement} 
           />
@@ -163,7 +166,7 @@ export default function BookAppointment({ blogTitle }) {
       {blogTitle ==
       "parenting-techniques-and-the-impact-they-can-have-on-children" ? (
         <>
-          <Hero data={heroContent} />
+          <Hero data={heroContentParenting} />
           <TextImg
             data={ParentingTechniques}
             title={"Parenting Techniques and the Impact on Children"}

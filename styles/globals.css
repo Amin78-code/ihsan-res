@@ -79,19 +79,37 @@ body {
 .dblock { 
   display: block !important;
 }
-.myContainer {
+.myContainer-b {
   width: 100%;
-  max-width: 1752px;
-  padding-left: 30px;
-  padding-right: 30px;
+  max-width: 1440px;
+  padding-left: 60px;
+  padding-right: 60px;
   margin-left: auto;
   margin-right: auto;
 }
-.myContainer-footer {
+.myContainer {
   width: 100%;
-  max-width: 1752px;
-  padding-left: 30px;
-  padding-right: 30px;
+  max-width: 1440px;
+  
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .myContainer-footer {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.myContainer-footer{
+  width: 100%;
+  max-width: 1440px;
+  
+  padding-left: 60px;
+  padding-right: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -105,16 +123,16 @@ ul.list-square li::marker {
   font-size: 30px;
 }
 .linear-gradient-1 {
-  background-image: linear-gradient(90deg,#F2F2F2 50%, #f2f2f2f2);
+  background-image: linear-gradient(90deg,#F2F2F2 50%, #f2f2f2f7);
 }
 .linear-gradient-2 {
-  background-image: linear-gradient(90deg,#F2F2F2 25%, #f2f2f2f2);
+  background-image: linear-gradient(90deg,#F2F2F2 25%, #f2f2f2f7);
 }
 .linear-gradient-3 {
-  background-image: linear-gradient(160deg, #F2F2F2 45%, #f2f2f2f2);
+  background-image: linear-gradient(160deg, #F2F2F2 45%, #f2f2f2f7);
 }
 .linear-gradient-4 {
-  background-image: linear-gradient(410deg, #F2F2F2 65%, #f2f2f2f2);
+  background-image: linear-gradient(410deg, #F2F2F2 65%, #f2f2f2f7);
 }
 .img_container img {
   object-fit: cover;
@@ -250,24 +268,14 @@ justify-content: center;
 .slick-next, .slick-prev {
   background-color: gray !important;
 }
-@media (min-width: 1024px) {
-  .myContainer {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .myContainer-footer {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-}
 @media (max-width: 640px) {
   .myContainer {
     padding-left: 25px;
     padding-right: 25px;
   }
   .myContainer-footer {
-    padding-left: 42px;
-    padding-right: 42px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   nav.myContainer {
@@ -284,11 +292,19 @@ justify-content: center;
     font-size: 20px;
   }
 }
-@media (min-width: 641px) and (max-width: 768px) {
+@media(max-width: 991px) {
   .myContainer {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media(min-width: 641px) and (max-width: 768px) {
+  /* .myContainer {
     padding-left: 30px;
     padding-right: 30px;
-  }
+  } */
+  
   .myContainer-footer {
     padding-left: 30px;
     padding-right: 30px;

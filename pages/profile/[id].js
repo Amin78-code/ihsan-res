@@ -132,10 +132,11 @@ export default function Profile({ id }) {
     });
     setProfileData({ ...data[0] });
   }, []);
+  
   return (
     <Layout>
       <Hero data={heroContent} />
-      {profileData && <Content data={profileData} />}
+      {profileData?.profileImg && <Content data={profileData} />}
     </Layout>
   );
 }

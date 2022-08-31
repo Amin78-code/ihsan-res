@@ -1,4 +1,3 @@
-import React from "react";
 import DarkSection from "../components/home/dark-section/DarkSection";
 import Testimonial from "../components/home/testimonial/Testimonial";
 import FAQ from "../components/home/faq/FAQ";

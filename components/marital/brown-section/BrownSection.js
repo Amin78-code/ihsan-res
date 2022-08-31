@@ -12,19 +12,19 @@ const BrownSection = () => {
       </div>
       <div className="myContainer relative z-[2]">
         <h1 className='fpr text-[35px] md:text-[60px] sc1500:text-[70px] leading-[35px] md:leading-[60px] sc1500:leading-[85px] text-center max-w-[900px] mx-auto'>Areas our marital coaching can help you with</h1>
-        <p className='fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] max-w-[1502px] mx-auto text-center pt-[32px]'>
+        <p className='fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[30px] max-w-[1502px] mx-auto text-center pt-[32px]'>
         Ihsan Coaching provides comprehensive marital coaching services for all your needs, including:
         </p>
         <ul className='flex flex-wrap max-w-[900px] mx-auto gap-y-[10px] md:gap-y-[30px] pt-[5%] md:pt-[3%] list-square'>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Communication</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Rebuild emotional connections</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Conflict resolution</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Better supporting your partner</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Financial responsibility</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Trust</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Work-life balance</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Intimacy</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">The Islamic concept of marriage</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Communication</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Rebuild emotional connections</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Conflict resolution</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Better supporting your partner</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Financial responsibility</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Trust</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Work-life balance</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Intimacy</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">The Islamic concept of marriage</li>
         </ul>
       </div>
     </section>

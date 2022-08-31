@@ -48,9 +48,8 @@ const TextImg = ({ data, title }) => {
       posted_date: 'July 4, 2022'
     }
   ]
-  console.log("data", data);
   return (
-    <section className="w-full pt-[20px] pb-[50px] lg:py-[40px] bg-[#fff]">
+    <section className="w-full pt-[20px] pb-[50px] lg:py-[100px] bg-[#fff]">
       <div className="myContainer">
         <div className="flex flex-col lg:flex-row">
           <div className=" w-full pr-0 lg:pr-[50px]">
@@ -105,9 +104,11 @@ const TextImg = ({ data, title }) => {
               );
             })}
           </div>
-          <aside className="w-full lg:min-w-[300px] max-w-full lg:max-w-[300px] flex flex-col gap-y-[20px]">
-            <GrayCard recentBlogs={recentBlogs}/>
-            <DarkCard />
+          <aside className="w-full lg:min-w-[300px] max-w-full lg:max-w-[300px] ">
+            <div className="flex flex-col gap-y-[20px] sticky top-0">
+              <GrayCard recentBlogs={recentBlogs}/>
+              <DarkCard />
+            </div>
           </aside>
         </div>
       </div>

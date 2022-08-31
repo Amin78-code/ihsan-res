@@ -44,9 +44,9 @@ const imgText4 = {
   img: Quran,
   title: "Religious consultation",
   paragraph1:
-    "Mental health is deeply rooted within Islam. We recognize the psycho-spiritual challenges you may face, which are ultimately key to your mental health and/or spiritual state.",
+    "Mental health is deeply rooted within Islam. We recognize the psycho-spiritual challenges you may face, which are ultimately key to your mental health and/or spiritual state. Our religious coaching staff have a strong grasp in Islamic Law and are religiously informed.",
   paragraph2:
-    "Our religious coaching staff have a strong grasp in Islamic Law and are religiously informed. Our religious consultation services are a simpler way to connect and speak directly with an Islamic scholar about any situation you’d like to discuss.",
+    "Our religious consultation services are a simpler way to connect and speak directly with an Islamic scholar about any situation you’d like to discuss.",
   link: "religious",
 };
 export default function HomePage() {

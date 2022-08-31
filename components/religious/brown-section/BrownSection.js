@@ -14,17 +14,17 @@ const BrownSection = () => {
         <h1 className='fpr text-[35px] md:text-[60px] sc1500:text-[70px] leading-[35px] md:leading-[60px] sc1500:leading-[85px] text-center max-w-[900px] mx-auto'>
           Areas our religious consultations can help you with
         </h1>
-        <p className='fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] max-w-[1502px] mx-auto text-center pt-[32px]'>
+        <p className='fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[30px] max-w-[1502px] mx-auto text-center pt-[32px]'>
         Ihsan Coaching provides comprehensive religious consultation services for all your needs, including:
         </p>
         <ul className='flex flex-wrap max-w-[900px] mx-auto gap-y-[10px] md:gap-y-[30px] pt-[5%] md:pt-[3%] list-square'>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Doubts</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Spiritual guidance</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Stress Management</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Parent Coaching</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Anger Management</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Mentoring</li>
-            <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Relationship Coaching</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Doubts</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Spiritual guidance</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Stress Management</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Parent Coaching</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Anger Management</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Mentoring</li>
+            <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] md:leading-[36px] text-[#fff] ml-[5%] md:ml-0 w-[90%] md:w-[50%]">Relationship Coaching</li>
         </ul>
       </div>
     </section>
