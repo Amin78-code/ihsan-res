@@ -20,7 +20,7 @@ const JoinTeam = () => {
   };
 
   return (
-    <section className="w-full py-[40px] md:py-[93px] bg-[#F2F2F2] relative overflow-hidden">
+    <section id="join_team" className="w-full py-[40px] md:py-[93px] bg-[#F2F2F2] relative overflow-hidden">
       <div className="absolute left-0 right-0 top-0 w-full h-[100%]">
         <div className="scale-[1.1]">
           <Image src={pattern} />

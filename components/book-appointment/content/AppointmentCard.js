@@ -36,22 +36,31 @@ const AppointmentCard = ({ appointment }) => {
         </Link>
 
         <div className="w-full  mt-[25px]">
-          <h6 className="  fgr font-[600] text-[#292929] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  pb-[3px]">
+         {appointment.sessionsAvailability && <h6 className="  fgr font-[600] text-[#292929] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  pb-[3px]">
             Available for:
-          </h6>
+          </h6>}
           <div className="flex flex-wrap justify-start max-h-[300px]">
-            {appointment.sessionsAvailability.map((sessionAvailability) => {
+            {appointment.sessionsAvailability?.map((sessionAvailability) => {
+             
               return (
-                <p
-                  key={sessionAvailability}
-                  className="w-[36%] fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  text-[#555555]"
-                >
-                  {sessionAvailability}
-                </p>
+                 
+                  
+                   
+                  <a
+                  target="_blank"
+                  rel="noreferrer"
+                  key={sessionAvailability?.length >0  && sessionAvailability[0]}
+                  href={sessionAvailability?.length >0  && sessionAvailability[1]?sessionAvailability[1]:""}
+                  className="w-[36%] text-[#182657] hover:opacity-[0.8] fgr text-[12px] underline md:text-[16px] leading-[16px] md:leading-[24px]  text-[#555555]"
+                  >
+                    <strong>{ sessionAvailability?.length >0  && sessionAvailability[0]}</strong>
+
+                  </a> 
               );
-            })}
+            })
+            }
           </div>
-          <li className="fgr font-[600] relative top-[-50px] float-right text-[#fff] transition-all duration-300 text-[12px] md:text-[16px] py-[15px] xl:py-[30px]"><a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[25px] py-[10px] hover:opacity-[.8]" href="https://calendly.com/farhan-ahmed/couples-session?month=2022-09"  target="_blank" without rel="noreferrer" >Schedule Now</a></li>
+          {/* <li c/lassName="fgr font-[600] relative top-[-50px] float-right text-[#fff] transition-all duration-300 text-[12px] md:text-[16px] py-[15px] xl:py-[30px]"><a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[25px] py-[10px] hover:opacity-[.8]" href="https://calendly.com/farhan-ahmed/couples-session?month=2022-09"  target="_blank" without rel="noreferrer" >Schedule Now</a></li> */}
         </div>
       </div>
     </div>

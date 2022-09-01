@@ -2,19 +2,19 @@ import Link from "next/link";
 import Image from "next/image";
 import email from "../../../assets/images/icons/email.svg";
 import meeting from "../../../assets/images/about-us/meeting.svg";
-import person1 from "../../../assets/images/about-us/person1.svg";
+import Farhan from "../../../assets/images/about-us/person1.svg";
 import person2 from "../../../assets/images/about-us/person2.svg";
-import person3 from "../../../assets/images/about-us/person7.svg";
-import person4 from "../../../assets/images/about-us/person8.svg";
-import person5 from "../../../assets/images/about-us/person5.svg";
-import person6 from "../../../assets/images/about-us/person6.svg";
+import Asmaa from "../../../assets/images/about-us/person7.svg";
+import Rawand from "../../../assets/images/about-us/person8.svg";
+import Rehena from "../../../assets/images/about-us/person5.svg";
+import MohammedBemat from "../../../assets/images/about-us/person6.svg";
 import person7 from "../../../assets/images/about-us/person4.svg";
 import person8 from "../../../assets/images/about-us/person3.svg";
 import ProfileCard from "./ProfileCard";
 
 const coaches = [
   {
-    profileImg: person1,
+    profileImg: Farhan,
     name: "Farhan Ahmed",
     slugName: "Farhan_Ahmed",
     designation: "Founder & Coach",
@@ -22,7 +22,7 @@ const coaches = [
     email: "farhan.ahmed@ihsancoaching.com",
   },
   {
-    profileImg: person3,
+    profileImg: Rehena,
     name: "Rehena Rana",
     slugName: "Rehena_Rana",
     designation: "Coach",
@@ -30,7 +30,7 @@ const coaches = [
     email: "rehena.rana@ihsancoaching.com",
   },
   {
-    profileImg: person4,
+    profileImg: Rawand,
     name: "Rawand Abdelghani",
     slugName: "Rawand_Abdelghani",
     designation: "Coach",
@@ -38,21 +38,24 @@ const coaches = [
     email: "rawand.abdelghani@ihsancoaching.com",
   },
   {
-    profileImg: person6,
-    name: "Mohammed Bemat",
-    slugName: "Mohammed_Bemat_Coach",
-    designation: "Coach",
-    status: "Masters in Pastoral Studies",
-    email: "mohammed.bemat@ihsancoaching.com",
-  },
-  {
-    profileImg: person5,
+    profileImg: Asmaa,
     name: "Asmaa Mahran",
     slugName: "Asmaa_Mahran",
     designation: "Coach",
     status: "Masters of Science in Psychology",
     email: "asmaa.mahran@ihsancoaching.com",
   },
+  
+ 
+  {
+    profileImg: MohammedBemat,
+    name: "Mohammed Bemat",
+    slugName: "Mohammed_Bemat_Coach",
+    designation: "Coach",
+    status: "Masters in Pastoral Studies",
+    email: "mohammed.bemat@ihsancoaching.com",
+  },
+  
 ];
 
 const religiousConsultants = [
@@ -76,9 +79,9 @@ const religiousConsultants = [
 
 const Team = () => {
   return (
-    <section id="join_team" className="pb-[20px] md:pb-[50px]">
-      <div className="min-h-[auto] md:min-h-[480px] flex items-center relative">
-        <div className="absolute z-[-1] top-0 w-full lg:w-[48%]">
+    <section id="our_team" className="pb-[20px] md:pb-[50px] ">
+      <div className=" myContainer min-h-[auto] md:min-h-[480px] flex items-center relative">
+        <div className="absolute z-[-1] top-0 w-full lg:w-[48%] max-w-[830px]">
           <Image src={meeting} alt="meeting" />
         </div>
         <div className="myContainer flex justify-end items-end">

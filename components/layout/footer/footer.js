@@ -26,7 +26,7 @@ const Footer = () => {
                   </button>
                 </a>
               </Link>
-              <Link href="/about-us/#join_team">
+              <Link href="/about-us/#our_team">
                 <a>
                   <button className="fgr w-[120px] md:w-[210px] h-[28px] md:h-[50px] border-[1px] md:border-[3px] border-[#FAF7F2] flex justify-between items-center bg-[#0F2E3C] text-[12px] md:text-[16px] text-[#fff] rounded-[50px] px-[11px] md:px-[30px] py-[7px] md:py-[10px] hover:text-[#555555] hover:bg-[#fff] group">
                     Meet the team
@@ -68,10 +68,10 @@ const Footer = () => {
                   <Link href="/about-us">About Us</Link>
                 </li>
                 <li className="fgr text-[#fff] text-[12px] md:text-[16px] leading-[22px] md:leading-[30px] hover:opacity-[.8] cursor-pointer">
-                  <Link href="/about-us/#join_team">Team </Link>
+                  <Link href="/about-us/#our_team">Team </Link>
                 </li>
                 <li className="fgr text-[#fff] text-[12px] md:text-[16px] leading-[22px] md:leading-[30px] hover:opacity-[.8] cursor-pointer">
-                  <Link href="/about-us/#join_team">Careers </Link>
+                  <Link href="/about-us/#our_team">Careers </Link>
                 </li>
                 <li className="fgr text-[#fff] text-[12px] md:text-[16px] leading-[22px] md:leading-[30px] hover:opacity-[.8] cursor-pointer">
                   <Link href="/programs">Programs </Link>

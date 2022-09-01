@@ -1,13 +1,10 @@
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Layout from "../components/layout/layout";
 import Hero from "../components/premarital/hero/Hero";
 import Content from "../components/premarital/content/Content";
-import BrownSection from "../components/premarital/brown-section/BrownSection";
-import hands from "../assets/images/services/hands.svg";
 import engagement from "../assets/images/services/engagement.svg";
-import couple from "../assets/images/services/couple.svg";
-import Quran from "../assets/images/services/Quran.svg";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import BrownSection from "../components/premarital/brown-section/BrownSection";
 
 const heroContent = {
   title: " Premarital coaching",

@@ -14,7 +14,6 @@ const DarkSection = () => {
   return (
     <section className="bg-[#0F2E3C] text-[#fff] pt-[44px] md:pt-[94px] pb-[58px] md:pb-[110px] relative overflow-hidden">
       <div className="absolute left-0 right-0 top-0 w-full h-[100%] overlay-img">
-        person
         <Image src={pattern} className="scale-[1.2] " />
       </div>
       <div className="absolute left-0 right-0 top-0 w-full h-[100%] bg-[#0F2E3C] opacity-[.94]"></div>

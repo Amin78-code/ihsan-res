@@ -112,7 +112,7 @@ export default function Navigation() {
               </Link>
             </li>
             <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px] px-0 xl:px-[5px] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
-              <Link href="/about-us/#join_team">
+              <Link href="/about-us/#our_team">
                 <a>Our Team</a>
               </Link>
             </li>
