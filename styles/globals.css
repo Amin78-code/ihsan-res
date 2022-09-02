@@ -11,17 +11,17 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #e1e1e1; 
+  background: #e1e1e1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(161, 161, 161); 
+  background: rgb(161, 161, 161);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(116, 116, 116); 
+  background: rgb(116, 116, 116);
 }
 @font-face {
   font-family: grotesk-regular;
@@ -76,7 +76,7 @@ body {
 body {
   color: #13100d;
 }
-.dblock { 
+.dblock {
   display: block !important;
 }
 .myContainer-b {
@@ -90,7 +90,7 @@ body {
 .myContainer {
   width: 100%;
   max-width: 1440px;
-  
+
   padding-left: 60px;
   padding-right: 60px;
   margin-left: auto;
@@ -104,10 +104,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 } */
-.myContainer-footer{
+.myContainer-footer {
   width: 100%;
   max-width: 1440px;
-  
+
   padding-left: 60px;
   padding-right: 60px;
   margin-left: auto;
@@ -123,16 +123,16 @@ ul.list-square li::marker {
   font-size: 30px;
 }
 .linear-gradient-1 {
-  background-image: linear-gradient(90deg,#F2F2F2 50%, #f2f2f2f7);
+  background-image: linear-gradient(90deg, #f2f2f2 50%, #f2f2f2f7);
 }
 .linear-gradient-2 {
-  background-image: linear-gradient(90deg,#F2F2F2 25%, #f2f2f2f7);
+  background-image: linear-gradient(90deg, #f2f2f2 25%, #f2f2f2f7);
 }
 .linear-gradient-3 {
-  background-image: linear-gradient(160deg, #F2F2F2 45%, #f2f2f2f7);
+  background-image: linear-gradient(160deg, #f2f2f2 45%, #f2f2f2f7);
 }
 .linear-gradient-4 {
-  background-image: linear-gradient(410deg, #F2F2F2 65%, #f2f2f2f7);
+  background-image: linear-gradient(410deg, #f2f2f2 65%, #f2f2f2f7);
 }
 .img_container img {
   object-fit: cover;
@@ -255,8 +255,8 @@ ul.list-square li::marker {
   object-fit: cover;
 }
 .slider-main div:nth-child(1) {
-display:flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .prof-img img {
   object-fit: cover;
@@ -265,8 +265,16 @@ justify-content: center;
 .flex-imp {
   display: flex !important;
 }
-.slick-next, .slick-prev {
+.slick-next,
+.slick-prev {
   background-color: gray !important;
+}
+@media (max-width: 991px) {
+  .myContainer {
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 @media (max-width: 640px) {
   .myContainer {
@@ -279,8 +287,8 @@ justify-content: center;
   }
 
   nav.myContainer {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   /* .home-hero-img img {
     height: 243px !important;
@@ -292,19 +300,12 @@ justify-content: center;
     font-size: 20px;
   }
 }
-@media(max-width: 991px) {
-  .myContainer {
-    max-width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-@media(min-width: 641px) and (max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
   /* .myContainer {
     padding-left: 30px;
     padding-right: 30px;
   } */
-  
+
   .myContainer-footer {
     padding-left: 30px;
     padding-right: 30px;
