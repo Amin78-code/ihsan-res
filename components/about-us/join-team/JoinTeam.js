@@ -128,11 +128,11 @@ const JoinTeam = () => {
         </div>
 
         <div className="w-full md:w-[50%] mb-[30px] mb-0 pl-0 md:pl-[3%]">
-          <div className="w-full flex justify-center max-h-[350px]">
+          <div className="w-full flex justify-center max-h-[350px] mb-[20px] sm:mb-0">
             <Image src={vector} className="" />
           </div>
           <div className="mt-[50px] hidden md:block">
-            <h5 className="fgb text-[#555555] text-[14px] md:text-[24px] leading-[18px] leading-[32px] pb-[10px]">
+            <h5 className="fgb text-[#555555] text-[16px] md:text-[24px] leading-[18px] md:leading-[26px] pb-[3px] sm:pb-[10px]">
               Apply Now
             </h5>
             <form

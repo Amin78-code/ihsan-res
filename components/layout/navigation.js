@@ -88,7 +88,7 @@ export default function Navigation() {
             </a>
           </Link>
           <TbMenu2
-            className="text-[18px] sm:text-[40px] text-[#fff]"
+            className="text-[24px] sm:text-[35px] text-[#fff]"
             onClick={() => openMobMenu()}
           />
         </div>

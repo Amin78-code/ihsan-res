@@ -21,7 +21,7 @@ const Testimonial = () => {
     return (
       <BsChevronRight
         onClick={onClick}
-        className="absolute right-[-8%] sm:right-[-4%] md:right-[2%] top-[44%] text-[15px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
+        className="absolute right-[-8%] sm:right-[-4%] md:right-[2%] top-[44%] text-[15px] sm:text-[20px] text-[#9D9D9D] z-[2] cursor-pointer"
       />
     );
   }
@@ -31,7 +31,7 @@ const Testimonial = () => {
     return (
       <BsChevronLeft
         onClick={onClick}
-        className="absolute left-[-8%] sm:left-[-4%] md:left-[2%] top-[44%] text-[15px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
+        className="absolute left-[-8%] sm:left-[-4%] md:left-[2%] top-[44%] text-[15px] sm:text-[20px] text-[#9D9D9D] z-[2] cursor-pointer"
       />
     );
   }

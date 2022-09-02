@@ -81,11 +81,11 @@ const Team = () => {
   return (
     <section id="our_team" className="pb-[20px] md:pb-[50px] ">
       <div className=" myContainer min-h-[auto] md:min-h-[480px] flex items-center relative">
-        <div className="absolute z-[-1] top-0 w-full lg:w-[48%] max-w-[830px]">
+        <div className="absolute z-[-1] top-0 w-[84%] sm:w-[78%] lg:w-[48%] max-w-[830px]">
           <Image src={meeting} alt="meeting" />
         </div>
-        <div className="myContainer flex justify-end items-end">
-          <div className="w-full lg:w-[50%] pl-0 lg:pl-[3.5%] pr-0 lg:pr-[3%]   pt-[80%] sm:pt-[75%] lg:pt-[0]  ">
+        <div className="myContaine r flex justify-end items-end">
+          <div className="w-full lg:w-[50%] pl-0 lg:pl-[3.5%] pr-0 lg:pr-[3%]   pt-[66%] sm:pt-[60%] lg:pt-[0]  ">
             <h2 className="fpr text-[32px] md:text-[63px]   text-[#0F2E3C] leading-[32px] md:leading-[63px]  ">
               Meet the team
             </h2>

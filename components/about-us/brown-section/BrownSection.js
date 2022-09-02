@@ -4,7 +4,7 @@ import pattern from '../../../assets/images/pattern.png';
 
 const BrownSection = () => {
   return (
-    <section className="text-[#fff] pt-[50px] md:pt-[75px] pb-[50px] md:pb-[80px] relative overflow-hidden">
+    <section className="text-[#fff] pt-[40px] md:pt-[75px] pb-[50px] md:pb-[80px] relative overflow-hidden">
       <div className='absolute left-0 right-0 top-0 w-full h-[100%] overlay-img'>
         <Image src={pattern} className='scale-[1.5] ' />  
       </div>
