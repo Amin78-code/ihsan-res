@@ -60,7 +60,7 @@ const Testimonial = () => {
                   <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[11px] md:text-[16px] text-[#555555] text-left mt-[7px ] md:mt-[5px ]">
                     Shaykh Ilir Aliji
                   </h6>
-                  <h5 className="fgr max-w-[180px] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
+                  <h5 className="fgr max-w-[180px] sm:max-w-[100%] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
                     Imam at Masjid Albani and Instructor at Islamic Institute of
                     Texas
                   </h5>
@@ -94,7 +94,7 @@ const Testimonial = () => {
                   <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[11px] md:text-[16px] text-[#555555] text-left mt-[7px ] md:mt-[5px ]">
                     Shaykh Umair Haseeb
                   </h6>
-                  <h5 className="fgr max-w-[180px] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
+                  <h5 className="fgr max-w-[180px] sm:max-w-[100%] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
                     Director of Religious Affairs at Taleef
                   </h5>
                 </div>
@@ -127,7 +127,7 @@ const Testimonial = () => {
                   <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[11px] md:text-[16px] text-[#555555] text-left mt-[7px ] md:mt-[5px ]">
                     Mufti Asif Umar
                   </h6>
-                  <h5 className="fgr max-w-[180px] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
+                  <h5 className="fgr max-w-[180px] sm:max-w-[100%] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
                     Islamic Wills USA
                   </h5>
                 </div>
