@@ -72,7 +72,7 @@ const JoinTeam = () => {
               Inclusion in our website and marketing materials for exposure
             </li>
           </ul>
-          <div className="mt-[50px] block md:hidden">
+          <div className="mt-[40px] sm:mt-[50px] block md:hidden">
             <h5 className="fgb text-[#555555] text-[14px] md:text-[22px] leading-[18px] leading-[32px] pb-[10px]">
               Apply Now
             </h5>

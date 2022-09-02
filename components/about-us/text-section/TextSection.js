@@ -24,11 +24,11 @@ const TextSection = () => {
             <h6 className='fgb text-[#555555] text-[14px] md:text-[28px] leading-[16px] md:leading-[30px] pb-[3px] sm:pb-[5px]'>Personalized</h6>
             <p className="fgr md:max-w-[490px] text-[#555555] text-[12px] md:text-[16px] leading-[15px] md:leading-[26px]">No two people or circumstances are alike, and neither are the solutions we offer. Every coaching program we put together is tailored to each individual’s or couple’s needs, challenges or goals.</p>
           </div>
-          <div className='w-full md:w-[48%] mt-[-2.5%]'>
+          <div className='w-full md:w-[48%] mt-0 sm:mt-[-2.5%]'>
             <h6 className='fgb text-[#555555] text-[14px] md:text-[28px] leading-[16px] md:leading-[30px] pb-[3px] sm:pb-[5px]'>Trust</h6>
             <p className="fgr md:max-w-[510px] text-[#555555] text-[12px] md:text-[16px] leading-[15px] md:leading-[26px]">Trust is fundamental in successful coaching. If you don’t trust your coach, they won’t be able to offer the best advice - and that starts with us. Our coaches respect and appreciate the faith you’ve put into them, and would never compromise that trust.</p>
           </div> 
-          <div className='w-full md:w-[48%] mt-[-2.5%]'>
+          <div className='w-full md:w-[48%] mt-0 sm:mt-[-2.5%]'>
             <h6 className='fgb text-[#555555] text-[14px] md:text-[28px] leading-[16px] md:leading-[30px] pb-[3px] sm:pb-[5px]'>Confidentiality/Amana</h6>
             <p className="fgr md:max-w-[490px] text-[#555555] text-[12px] md:text-[16px] leading-[15px] md:leading-[26px]">All information provided is held with the highest level of confidentiality in accordance with HIPPA compliance.</p>
           </div>

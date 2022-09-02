@@ -281,6 +281,11 @@ ul.list-square li::marker {
     padding-left: 25px;
     padding-right: 25px;
   }
+  
+.myContainer-b {
+  padding-left: 25px;
+  padding-right: 25px;
+}
   .myContainer-footer {
     padding-left: 25px;
     padding-right: 25px;
