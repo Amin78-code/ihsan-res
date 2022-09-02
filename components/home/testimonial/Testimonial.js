@@ -21,7 +21,7 @@ const Testimonial = () => {
     return (
       <BsChevronRight
         onClick={onClick}
-        className="absolute right-[-6%] sm:right-[-4%] md:right-[2%] top-[22%] text-[25px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
+        className="absolute right-[-8%] sm:right-[-4%] md:right-[2%] top-[44%] text-[15px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
       />
     );
   }
@@ -31,7 +31,7 @@ const Testimonial = () => {
     return (
       <BsChevronLeft
         onClick={onClick}
-        className="absolute left-[-6%] sm:left-[-4%] md:left-[2%] top-[22%] text-[25px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
+        className="absolute left-[-8%] sm:left-[-4%] md:left-[2%] top-[44%] text-[15px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
       />
     );
   }
@@ -53,14 +53,14 @@ const Testimonial = () => {
                 positive results alhamdulilah
               </p>
               <div className="flex flex-start mt-[15px] md:mt-[37px] mx-auto">
-                <div className="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-[50px] overflow-hidden prof-img mr-[10px]">
+                <div className="w-[34px] md:w-[55px] min-w-[34px] h-[34px] md:h-[55px] rounded-[50px] overflow-hidden prof-img mr-[5px] sm:mr-[10px]">
                   <Image src={testiominal1} />
                 </div>
-                <div className="flex flex-col">
-                  <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[12px] md:text-[16px] text-[#555555] text-left mt-[7px] md:mt-[5px]">
+                <div className="flex flex-col justify-center">
+                  <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[11px] md:text-[16px] text-[#555555] text-left mt-[7px ] md:mt-[5px ]">
                     Shaykh Ilir Aliji
                   </h6>
-                  <h5 className="fgr leading-[12px] md:leading-[26px] text-[12px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
+                  <h5 className="fgr max-w-[180px] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
                     Imam at Masjid Albani and Instructor at Islamic Institute of
                     Texas
                   </h5>
@@ -87,14 +87,14 @@ const Testimonial = () => {
                 and benefit the ummah by them.
               </p>
               <div className=" flex flex-start mt-[15px] md:mt-[37px] mx-auto">
-                <div className="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-[50px] overflow-hidden prof-img mr-[10px]">
+                <div className="w-[34px] md:w-[55px] min-w-[34px] h-[34px] md:h-[55px] rounded-[50px] overflow-hidden prof-img mr-[5px] sm:mr-[10px]">
                   <Image src={testiominal2} />
                 </div>
-                <div className="flex flex-col">
-                  <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[12px] md:text-[16px] text-[#555555] text-left mt-[7px] md:mt-[5px]">
+                <div className="flex flex-col justify-center">
+                  <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[11px] md:text-[16px] text-[#555555] text-left mt-[7px ] md:mt-[5px ]">
                     Shaykh Umair Haseeb
                   </h6>
-                  <h5 className="fgr leading-[12px] md:leading-[26px] text-[12px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
+                  <h5 className="fgr max-w-[180px] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
                     Director of Religious Affairs at Taleef
                   </h5>
                 </div>
@@ -120,14 +120,14 @@ const Testimonial = () => {
                 ability to help others.
               </p>
               <div className="flex flex-start mt-[15px] md:mt-[37px] mx-auto">
-                <div className="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-[50px] overflow-hidden prof-img mr-[10px]">
+                <div className="w-[34px] md:w-[55px] min-w-[34px] h-[34px] md:h-[55px] rounded-[50px] overflow-hidden prof-img mr-[5px] sm:mr-[10px]">
                   <Image src={profile} />
                 </div>
-                <div className="flex flex-col">
-                  <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[12px] md:text-[16px] text-[#555555] text-left mt-[7px] md:mt-[5px]">
+                <div className="flex flex-col justify-center">
+                  <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[11px] md:text-[16px] text-[#555555] text-left mt-[7px ] md:mt-[5px ]">
                     Mufti Asif Umar
                   </h6>
-                  <h5 className="fgr leading-[12px] md:leading-[26px] text-[12px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
+                  <h5 className="fgr max-w-[180px] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
                     Islamic Wills USA
                   </h5>
                 </div>

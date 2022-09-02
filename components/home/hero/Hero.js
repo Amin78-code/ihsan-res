@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
       <Link href="/contact">
-        <a className="fgb text-[#fff] text-[12px] leading-[42px] bg-[#AB8353] w-full flex md:hidden justify-center items-center h-[25px] pt-[3px]">
+        <a className="fgb text-[#fff] text-[12px] leading-[42px] bg-[#AB8353] w-full flex md:hidden justify-center items-center h-[35px] sm:h-[25px] pt-[3px]">
           Get Started
           <HiCheckCircle className="text-[13px] ml-[3px] mt-[-3px]" />
         </a>
