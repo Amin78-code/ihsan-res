@@ -17,37 +17,25 @@ import GrayCard from "./GrayCard";
 import DarkCard from "./DarkCard";
 
 const TextImg = ({ data, title }) => {
-
   const recentBlogs = [
     {
-      title: 'Anxiety Management and Solutions with some practicles',
-      posted_date: 'July 4, 2022'
+      title: "Parenting Techniques and The Impact on Children",
+      posted_date: "March 8, 2022",
+      slug_title:
+        "parenting-techniques-and-the-impact-they-can-have-on-children",
     },
     {
-      title: 'Anxiety Management and Solutions with some practicles',
-      posted_date: 'July 4, 2022'
+      title: "Anxiety Management Techniques",
+      posted_date: "July 6, 2022",
+      slug_title: "anxiety-management-techniques",
     },
     {
-      title: 'Anxiety Management and Solutions with some practicles',
-      posted_date: 'July 4, 2022'
+      title: "Parenting Techniques and The Impact on Children",
+      posted_date: "March 8, 2022",
+      slug_title:
+        "parenting-techniques-and-the-impact-they-can-have-on-children",
     },
-    {
-      title: 'Anxiety Management and Solutions with some practicles',
-      posted_date: 'July 4, 2022'
-    },
-    {
-      title: 'Anxiety Management and Solutions with some practicles',
-      posted_date: 'July 4, 2022'
-    },
-    {
-      title: 'Anxiety Management and Solutions with some practicles',
-      posted_date: 'July 4, 2022'
-    },
-    {
-      title: 'Anxiety Management and Solutions with some practicles',
-      posted_date: 'July 4, 2022'
-    }
-  ]
+  ];
   return (
     <section className="w-full pt-[20px] pb-[50px] lg:py-[100px] bg-[#fff]">
       <div className="myContainer">
@@ -71,21 +59,21 @@ const TextImg = ({ data, title }) => {
                     ""
                   )}
                   {contentPiece.type == "h-level-2" ? (
-                    <h2 className="fpr text-[20px] lg:text-[28px] 2xl:text-[45px] leading-[20px] lg:leading-[28px] 2xl:leading-[45px] text-[#0F2E3C] mt-[10px] md:mt-[30px]">
+                    <h2 className="fpr text-[20px] lg:text-[28px] 2xl:text-[45px] leading-[20px] lg:leading-[28px] 2xl:leading-[45px] capitalize text-[#0F2E3C] mt-[10px] md:mt-[30px]">
                       {contentPiece.text}
                     </h2>
                   ) : (
                     ""
                   )}
                   {contentPiece.type == "h-level-3" ? (
-                    <h2 className="fpr text-[18px] lg:text-[35px] 2xl:text-[40px] leading-[18px] lg:leading-[35px] 2xl:leading-[40px] text-[#0F2E3C] mt-[10px] md:mt-[30px]">
+                    <h2 className="fpr text-[18px] lg:text-[35px] 2xl:text-[40px] leading-[18px] lg:leading-[35px] 2xl:leading-[40px] text-[#0F2E3C] capitalize mt-[10px] md:mt-[30px]">
                       {contentPiece.text}
                     </h2>
                   ) : (
                     ""
                   )}
                   {contentPiece.type == "h-level-4" ? (
-                    <h2 className="fpr text-[16px] lg:text-[28px] 2xl:text-[34px] leading-[16px] lg:leading-[28px] 2xl:leading-[34px] text-[#0F2E3C] mt-[10px] md:mt-[25px]">
+                    <h2 className="fpr text-[16px] lg:text-[28px] 2xl:text-[34px] leading-[16px] lg:leading-[28px] 2xl:leading-[34px] text-[#0F2E3C] capitalize mt-[10px] md:mt-[25px]">
                       {contentPiece.text}
                     </h2>
                   ) : (
@@ -105,8 +93,8 @@ const TextImg = ({ data, title }) => {
             })}
           </div>
           <aside className="w-full lg:min-w-[300px] max-w-full lg:max-w-[300px] ">
-            <div className="flex flex-col gap-y-[20px] sticky top-0">
-              <GrayCard recentBlogs={recentBlogs}/>
+            <div className="flex flex-col gap-y-[20px] sticky top-[30px]">
+              <GrayCard recentBlogs={recentBlogs} />
               <DarkCard />
             </div>
           </aside>

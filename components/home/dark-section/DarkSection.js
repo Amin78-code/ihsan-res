@@ -20,9 +20,9 @@ const DarkSection = () => {
 
       <div className="myContainer relative z-[2]">
         <div className="px-0 sm:px-[5%] md:px-[0] xl:px-[5%]">
-          <div className="flex flex-col lg:flex-row">
-            <h2 className="fpr text-[32px] md:text-[50px] sc1500:text-[70px] text-[#fff] leading-[32px] md:leading-[50px] sc1500:leading-[70px] min-w-[100%] md:min-w-[420px]">
-              What makes <br className="block sm:hidden" /> us different?
+          <div className="flex flex-col lg:flex-row justify-between">
+            <h2 className="fpr text-[32px] md:text-[50px] lg:text-[60px] sc1500:text-[70px] text-[#fff] leading-[32px] md:leading-[50px] lg:leading-[65px] sc1500:leading-[70px] min-w-[100%] md:min-w-[420px]">
+              What makes <br className="bloc k sm:hidde n" /> us different?
             </h2>
             <p className="fgr max-w-[680px] text-[12px] md:text-[16px] leading-[16px] md:leading-[28px] text-[#fff] pl-0 lg:pl-[1%] pt-[16px] lg:pt-0">
               Coaching is another form of support for people that feel stuck in
@@ -35,9 +35,9 @@ const DarkSection = () => {
               to be, we can get you feeling you again, faster.
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row pt-[60px] pb-[50px] md:py-[100px] items-center lg:items-end">
-            <div className="flex flex-[100%] lg:flex-[47%]">
-              <div className="mr-[20px]   sc1440:w-[auto] w-[52px] md:w-[150px] lg:md:w-[80px] xl:w-[150px] h-[53px]">
+          <div className="flex flex-col lg:flex-row justify-between pt-[60px] pb-[50px] md:py-[100px] items-center lg:items-end">
+            <div className="flex flex-[100% ] lg:flex-[47% ]">
+              <div className="mr-[20px]   sc1440:w-[auto] w-[52px] md:w-[150px] lg:md:w-[140px] xl:w-[150px] h-[53px]  md:mt-[-20px]">
                 <Image src={bulb} alt="bulb" />
               </div>
               <div>
@@ -45,25 +45,33 @@ const DarkSection = () => {
                   Modern Coaching
                 </h6>
                 <ul>
-                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" />
+                  <li className="fgr flex text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[24px]  text-[#fff] inline pr-[8px]" />
                     Action and goal-oreinted
                   </li>
-                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" />
+                  <li className="fgr flex text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[24px]  text-[#fff] inline pr-[8px]" />
                     Forward looking
                   </li>
-                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" />
+                  <li className="fgr flex text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[24px]  text-[#fff] inline pr-[8px]" />
                     Tailored one-on-one approach
                   </li>
                 </ul>
               </div>
             </div>
-            <p className="flex-[100%] lg:flex-[6%] fpr text-[18px] md:text-[24px] text-[#fff] py-[5px] leading-[28px] px-[4%] sc1440:px-[7%] mt-0 lg:mt-[-30px]">
+            <p className="flex-[100% ] lg:flex-[6% ] fpr text-[18px] md:text-[24px] text-[#fff] py-[5px] leading-[28px] 
+            
+            sc1200:pl-[4%] 
+            sc1200:pr-[4%] 
+            
+            sc1440:pl-[0%]
+            sc1440:pr-[0%]
+            
+            mt-0 lg:mt-[-30px]">
               vs
             </p>
-            <div className="flex flex-[100%] lg:flex-[47%]">
+            <div className="flex flex-[100% ] lg:flex-[47% ]">
               <div className="mr-[20px] sc1440:w-[auto] w-[37px] md:w-[150px] lg:md:min-w-[60px] xl:w-[150px] h-[69px] md:px-[35px]">
                 <Image src={clipboard} alt="clipboard" />
               </div>
@@ -73,16 +81,16 @@ const DarkSection = () => {
                 </h6>
 
                 <ul>
-                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" />
+                  <li className="fgr flex text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] text-[#fff] py-0 md:py-[3px] leading-[20px] ">
+                    <RiCloseCircleFill className="mt-[-3px] md:mt- 0 text-[16px] md:text-[18px] lg:text-[25px] text-[#fff] inline pr-[7px]" />
                     Analytical and introspective
                   </li>
-                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" />
+                  <li className="fgr flex text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] text-[#fff] py-0 md:py-[3px] leading-[20px] ">
+                    <RiCloseCircleFill className="mt-[-3px] md:mt- 0 text-[16px] md:text-[18px] lg:text-[25px] text-[#fff] inline pr-[7px]" />
                     Slow-paced and long-term
                   </li>
-                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" />
+                  <li className="fgr flex text-[12px] md:text-[16px] leading-[16px] md:leading-[20px] text-[#fff] py-0 md:py-[3px] leading-[20px] ">
+                    <RiCloseCircleFill className="mt-[-3px] md:mt- 0 text-[16px] md:text-[18px] lg:text-[25px] text-[#fff] inline pr-[7px]" />
                     Focus more on the past to
                     <br /> resolve current challenges
                   </li>
@@ -90,13 +98,13 @@ const DarkSection = () => {
               </div>
             </div>
           </div>
-          <h2 className="fpr text-[#fff] text-[32px] md:text-[60px] sc1500:text-[90px] text-center pb-[27px] md:pb-[60px]">
+          <h2 className="fpr text-[#fff] text-[32px] md:text-[60px] lg:text-[75px] sc1500:text-[90px] text-center pb-[27px] md:pb-[60px]">
             Our services
           </h2>
-          <div className="flex flex-wrap justify-center items-center gap-x-[0] md:gap-x-[5%] gap-y-[26px] md:gap-y-[50px]">
-            <div className="w-[100%] md:w-[47%] flex items-start">
+          <div className="flex flex-wrap justify-between items-center gap-x-[0] md:gap-x-[7%] gap-y-[26px] md:gap-y-[50px]">
+            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[450px] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]">
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-5px] mt-[-20px] mr-[15px]">
                 <Image src={person} alt="person" />
               </div>
               <div>
@@ -114,9 +122,9 @@ const DarkSection = () => {
               </div>
             </div>
 
-            <div className="w-[100%] md:w-[47%] flex items-start">
+            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[450px] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]">
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-5px] mt-[-20px] mr-[15px]">
                 
                 <Image src={ring} alt="image" />
               </div>
@@ -124,7 +132,7 @@ const DarkSection = () => {
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Premarital Coaching
                 </h4>
-                <p className="fgr max-w-[345px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[360px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   Assess your compatibility and get a better understanding of
                   what constitutes an ideal Islamic marriage.
                   <Link href="/premarital">
@@ -134,9 +142,9 @@ const DarkSection = () => {
               </div>
             </div>
 
-            <div className="w-[100%] md:w-[47%] flex items-start">
+            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[450px] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]">
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-7px] mt-[-20px] mr-[15px]">
                 <Image src={heart} alt="heart" />
               </div>
               <div>
@@ -154,9 +162,9 @@ const DarkSection = () => {
               </div>
             </div>
 
-            <div className="w-[100%] md:w-[47%] flex items-start">
+            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[450px] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]">
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-5px] mt-[-20px] mr-[15px]">
                 
                 <Image src={mosque} alt="mosque" />
               </div>

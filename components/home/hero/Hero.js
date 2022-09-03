@@ -22,8 +22,8 @@ const Hero = () => {
         </div>
         <div className="absolute left-0 right-0 top-0 w-full h-[100%] linear-gradient-2"></div>
         <div className="myContainer flex flex-col-reverse lg:flex-row relative z-[1]">
-          <div className="w-full lg:w-[62%] xl:w-[52%] pt-[3%]">
-            <h1 className="fpr text-[35px] sm:text-[70px] md:text-[110px] lg:text-[90px] sc1350:text-[110px] leading-[35px]  sm:leading-[70px] md:leading-[110px] lg:leading-[90px] sc1350:leading-[110px] sc1350   text-[#0F2E3C] md:max-w-[680px]">
+          <div className="w-full lg:w-[62%] xl:w-[52%] pt-[3%] lg:pt-[3%]">
+            <h1 className="fpr text-[35px] sm:text-[70px] md:text-[110px] lg:text-[90px] sc1350:text-[110px] leading-[35px]  sm:leading-[70px] md:leading-[110px] lg:leading-[90px] sc1350:leading-[100px] text-[#0F2E3C] md:max-w-[680px]">
               Feel like <br /> you again
             </h1>
             <p className="fgr max-w-[600px] text-[12px] md:text-[20px] leading-[16px] md:leading-[26px] text-[#292929] pt-[13px] md:pt-[40px] pb-[16px] md:pb-[45px]">
@@ -35,7 +35,7 @@ const Hero = () => {
               <a>
                 <button
                   type="button"
-                  className="fgr w-[130px] md:w-[260px] h-[31px] md:h-[65px] flex justify-between items-center bg-[#AE8B5C] text-[12px] md:text-[20px] leading-[36px] text-[#fff] rounded-[50px] px-[11px] md:px-[30px] pt-[8px] pb-[7px] md:py-[10px] hover:opacity-[.8]"
+                  className="fgr w-[130px] md:w-[260px] h-[31px] md:h-[65px] flex justify-between items-center bg-[#AE8B5C] text-[12px] md:text-[20px] leading-[36px] text-[#fff] rounded-[50px] px-[11px] md:px-[30px] pt-[8px] pb-[7px] md:py-[10px] hover:opacity-[.8] hover:text-[#fff] hover:bg-[#0F2E3C]"
                 >
                   Get started
                   <BsFillArrowRightCircleFill className="text-[12px] md:text-[20px]" />

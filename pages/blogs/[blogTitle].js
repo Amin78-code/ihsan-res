@@ -27,7 +27,7 @@ const AnxietyManagement = [
   },
   {
     type: "h-level-1",
-    text: "WHAT IS ANXIETY?",
+    text: "What is anxiety?",
   },
   {
     type: "p",
@@ -106,7 +106,7 @@ const ParentingTechniques = [
   },
   {
     type: "h-level-1",
-    text: "WHAT IS PARENT COACHING??",
+    text: "what is parent coaching??",
   },
   {
     type: "p",

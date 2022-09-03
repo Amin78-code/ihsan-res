@@ -2,7 +2,7 @@ import React from "react";
 
 const GrayDiv = () => {
   return (
-    <section className="w-full pb-[70px] lg:pb-[120px]">
+    <section id="rate" className="w-full pb-[70px] lg:pb-[120px]">
       <div className="myContainer">
         <div className=" bg-[#F2F2F2] flex flex-col lg:flex-row justify-center gap-y-[20px] lg:gap-y-[0] px-[30px] md:px-[50px] py-[40px] md:py-[75px]">
           <div className="w-full lg:w-[60%] pr-[60px]">

@@ -7,7 +7,7 @@ const DarkCard = ({ recentBlogs }) => {
   console.log("recentBlogs", recentBlogs);
   return (
     <div className="w-full h-[auto] bg-[#0F2E3C] border-[#707070] border-[1px] rounded-[15px] md:rounded-[25px] p-[25px]">
-      <h4 className="fpr text-[20px] md:text-[27px] leading-[20px] md:leading-[27px] text-[#fff]   ">
+      <h4 className="fpr text-[20px] md:text-[27px] leading-[20px] md:leading-[30px] text-[#fff]   ">
         Get started with Ihsan Coaching today
       </h4>
 

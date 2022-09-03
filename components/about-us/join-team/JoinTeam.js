@@ -178,7 +178,7 @@ const JoinTeam = () => {
               <div className=" w-full">
                 <button
                   type="submit"
-                  className="shadow-[0_0_6px_#00000029] rounded-[40px] float-right bg-[#AE8B5C] w-[94px] md:w-[auto] h-[31px] md:h-[auto] text-[#fff] text-[12px] md:text-[16px] font-bold px-[11px] md:px-10 py-[7px] md:py-3 "
+                  className="shadow-[0_0_6px_#00000029] rounded-[40px] float-right bg-[#AE8B5C] w-[94px] md:w-[auto] h-[31px] md:h-[auto] text-[#fff] text-[12px] md:text-[16px] font-bold px-[11px] md:px-10 py-[7px] md:py-3 hover:text-[#AE8B5C] hover:bg-[#fff] border-[1px] border-[#AE8B5C]"
                 >
                   Send
                 </button>

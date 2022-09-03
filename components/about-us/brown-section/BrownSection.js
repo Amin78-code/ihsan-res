@@ -14,7 +14,7 @@ const BrownSection = () => {
         <p className='fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] max-w-[950px] text-center mx-auto pt-[20px] md:pt-[32px]'>
           With a unique understanding of the challenges Muslims may face in Western society, we’re able to offer tailored programs that bridge traditional coaching and Islamic consulting. And unlike traditional therapy, goal-oriented coaching is a more direct path to well being.
         </p>
-        <div className="flex flex-col xl:flex-row flex-wrap gap-x-[0] xl:gap-x-[1.5%] gap-y-[30px] xl:gap-y-0 mt-[30px] md:mt-[65px]">
+        <div className="flex flex-col xl:flex-row flex-wrap justify-between gap-x-[0] xl:gap-x-[1.5%] gap-y-[30px] xl:gap-y-0 mt-[30px] md:mt-[65px]">
           <div className='w-full xl:w-[31%] flex'>
             <MdCheckCircle className='text-[#fff] text-[25px] md:text-[40px] mr-[5px] w-[50px] md:w-[auto] min-w-[auto] md:min-w-[50px]' />
             <div>

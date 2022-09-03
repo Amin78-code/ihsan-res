@@ -22,6 +22,15 @@ const coaches = [
     email: "farhan.ahmed@ihsancoaching.com",
   },
   {
+    profileImg: Asmaa,
+    name: "Asmaa Mahran",
+    slugName: "Asmaa_Mahran",
+    designation: "Coach",
+    status: "Masters of Science in Psychology",
+    email: "asmaa.mahran@ihsancoaching.com",
+  },
+
+  {
     profileImg: Rehena,
     name: "Rehena Rana",
     slugName: "Rehena_Rana",
@@ -37,25 +46,14 @@ const coaches = [
     status: "Masters of Science in Social Work",
     email: "rawand.abdelghani@ihsancoaching.com",
   },
-  {
-    profileImg: Asmaa,
-    name: "Asmaa Mahran",
-    slugName: "Asmaa_Mahran",
-    designation: "Coach",
-    status: "Masters of Science in Psychology",
-    email: "asmaa.mahran@ihsancoaching.com",
-  },
-  
- 
-  {
-    profileImg: MohammedBemat,
-    name: "Mohammed Bemat",
-    slugName: "Mohammed_Bemat_Coach",
-    designation: "Coach",
-    status: "Masters in Pastoral Studies",
-    email: "mohammed.bemat@ihsancoaching.com",
-  },
-  
+  // {
+  //   profileImg: MohammedBemat,
+  //   name: "Mohammed Bemat",
+  //   slugName: "Mohammed_Bemat",
+  //   designation: "Coach",
+  //   status: "Masters in Pastoral Studies",
+  //   email: "mohammed.bemat@ihsancoaching.com",
+  // },
 ];
 
 const religiousConsultants = [
@@ -85,7 +83,7 @@ const Team = () => {
           <Image src={meeting} alt="meeting" />
         </div>
         <div className="myContaine r flex justify-end items-end">
-          <div className="w-full lg:w-[50%] pl-0 lg:pl-[3.5%] pr-0 lg:pr-[3%]   pt-[66%] sm:pt-[60%] lg:pt-[0]  ">
+          <div className="w-full lg:w-[48%] pl-0 lg:pl-[3.5%] pr-0 lg:pr-[3%]   pt-[66%] sm:pt-[60%] lg:pt-[0]  ">
             <h2 className="fpr text-[32px] md:text-[63px]   text-[#0F2E3C] leading-[32px] md:leading-[63px]  ">
               Meet the team
             </h2>
@@ -99,10 +97,13 @@ const Team = () => {
         </div>
       </div>
       <div className="myContainer pt-[50px] md:pt-[30px]  ">
-        <h2 className="fpr text-[28px] md:text-[40px]  text-[#0F2E3C] leading-[24px] md:leading-[40px] ">
+      <h1 className="fpr text-[40px] md:text-[55px] leading-[40px] md:leading-[55px]  text-[#0F2E3C] mb-[20px] md:mb-[40px]">
+      Coaches
+        </h1>
+        {/* <h2 className="fpr text-[28px] md:text-[40px]  text-[#0F2E3C] leading-[24px] md:leading-[40px] ">
           Coaches
-        </h2>
-        <div className="flex flex-col md:flex-row flex-wrap md:gap-x-[4%] lg:gap-x-[2.5%] gap-y-[50px] mt-[20px] md:mt-[30px] mb-[30px] md:mb-[50px]">
+        </h2> */}
+        <div className="flex flex-col md:flex-row flex-wrap md:gap-x-[4%] lg:gap-x-[2.5% ] gap-y-[50px] mt-[20px] md:mt-[30px] mb-[30px] md:mb-[50px]">
           {coaches.map((value, index) => {
             return <ProfileCard data={value} key={value.profileImg + index} />;
           })}
@@ -110,7 +111,7 @@ const Team = () => {
         <h2 className="fpr text-[28px] md:text-[40px]  text-[#0F2E3C] leading-[24px] md:leading-[40px] ">
           <Link href="/religious">Religious Consultants</Link>
         </h2>
-        <div className="flex flex-col md:flex-row flex-wrap md:gap-x-[4%] lg:gap-x-[2.5%] gap-y-[50px] mt-[20px] md:mt-[30px] mb-[30px] md:mb-[50px]">
+        <div className="flex flex-col md:flex-row flex-wrap md:gap-x-[4%] lg:gap-x-[2.5% ] gap-y-[50px] mt-[20px] md:mt-[30px] mb-[30px] md:mb-[50px]">
           {religiousConsultants.map((valu, inde) => {
             return <ProfileCard data={valu} key={valu.profileImg + inde} />;
           })}

@@ -19,7 +19,7 @@ const ImgText = ({ data, pb, flip }) => {
           className={`
         absolut e
               ${flip == true ? "    right-0  self-end " : "   left-0   "}
-                top-0 xl:top-[unset] max-w-[85%] sm:max-w-[90%] md:max-w-[90%] xl:max-w-[570px] pl-[5% ] xl:pl-0
+                top-0 xl:top-[unset] max-w-[85%] sm:max-w-[90%] md:max-w-[90%]  xl:max-w-[520px] sc1350:max-w-[570px] pl-[5% ] xl:pl-0
         `}
         >
           <div
@@ -48,9 +48,9 @@ const ImgText = ({ data, pb, flip }) => {
             />
           </div>
         </div>
-        <div className={`w-full xl:w-[50%] pt-[85% ] md:pt-[650px ] xl:pt-0  ${flip == true ? "pr-0 lg:pr-[6%] pt-[30px] sm:pt-[50px] xl:pr-0 lg:pt-0" : "pl-0 lg:pl-[6%] xl:pl-0   "}`}>
+        <div className={`w-full xl:w-[50%] pt-[85% ] xl:pt-0  ${flip == true ? "pr-0 lg:pr-[6%] pt-[30px] sm:pt-[50px] xl:pr-0 lg:pt-0" : "pl-0 lg:pl-[6%] xl:pl-0   "}`}>
           <h1 className="fpr text-[32px] md:text-[45px] leading-[32px] md:leading-[50px]  text-[#0F2E3C] pt-[10px] xl:pt-[40px]">
-            {data.title}1
+            {data.title}
           </h1> 
           <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#555555] pt-[15px] pb-[10px] md:pb-[20px] max-w-[610px]">
             {data.paragraph1}
@@ -59,7 +59,7 @@ const ImgText = ({ data, pb, flip }) => {
             {data.paragraph2}
           </p>
           <Link href={`/${data.link}`}>
-            <a className="fgr w-[150px] h-[40px] bg-[#AE8B5C] text-[#fff] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] rounded-[50px] px-[5px] py-[13px] hover:opacity-[.8] cursor-pointer mb-[20px] flex justify-center items-center mt-[30px]">
+            <a className="fgr w-[150px] h-[40px] bg-[#AE8B5C] text-[#fff] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] rounded-[50px] px-[5px] py-[13px] hover:opacity-[.8] cursor-pointer mb-[20px] flex justify-center items-center mt-[30px] hover:text-[#AE8B5C] hover:bg-[#fff] border-[1px] border-[#AE8B5C]">
               Learn more
             </a>
           </Link>

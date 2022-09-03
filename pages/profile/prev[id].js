@@ -81,10 +81,10 @@ const profiles = [
       "Furthermore, Asmaa has studied Islamic Studies with various scholars both in the Middle East and the United States and has a diploma in Islamic Psychology from Islamic Online University. She is currently pursuing her PsyD Clinical psychology from California Southern University. As a coach, Asmaa enjoys working with her clients to get their desired outcomes. She conducts coaching sessions in both English and Arabic.",
   },
   {
-    id: "Mohammed_Bemat_Coach",
+    id: "Mohammed_Bemat",
     profileImg: person6,
-    name: "Mohammed Bemat Coach",
-    slugName: "Mohammed_Bemat_Coach",
+    name: "Mohammed Bemat",
+    slugName: "Mohammed_Bemat",
     designation: "Coach",
     status: "Master’s in Pastoral Studies",
     email: "mohammed.bemat@ihsancoaching.com",

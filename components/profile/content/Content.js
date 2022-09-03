@@ -14,7 +14,7 @@ const Content = ({ data, pb }) => {
       <div className="myContainer flex flex-col xl:flex-row justify-end relative">
         <div className="flex flex-col-reverse lg:flex-row">
           <div className="w-full lg:w-[50%] pt-[30px] md:pt-[50px] lg:pt-0">
-            <h1 className="fpr text-[32px] md:text-[60px] leading-[32px] md:leading-[70px]  text-[#182657] pt-[10px] md:pt-[40px]">
+            <h1 className="fpr text-[32px] md:text-[60px] leading-[32px] md:leading-[70px]  text-[#0F2E3C] pt-[10px] md:pt-[40px]">
               {data.name}
             </h1>
             <h5 className="fgr text-[22px] md:text-[26px] leading-[22px] md:leading-[26px]  text-[#555555]">
@@ -51,13 +51,13 @@ const Content = ({ data, pb }) => {
                 <h6 className="fgr font-[600] text-[#292929] text-[13px] leading-[13px] md:text-[18px] md:leading-[28px] pb-[7px]">
                   Available for:
                 </h6>
-                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[28px] text-[#555555]">
+                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[26px] text-[#555555]">
                   Individual Coaching
                 </p>
-                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[28px] text-[#555555]">
+                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[26px] text-[#555555]">
                   Couples Coaching
                 </p>
-                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[28px] text-[#555555]">
+                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[26px] text-[#555555]">
                   Premarital Coaching
                 </p>
               </div>

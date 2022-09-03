@@ -29,18 +29,33 @@ const appointmentDetails = [
     status: "Masters in Clinical Mental Health Counseling",
     email: "farhan.ahmed@ihsancoaching.com",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel… learn more",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel",
     sessionsAvailability: [
-      ["Individual Sessions","https://calendly.com/farhan-ahmed/individual-session"],
-      ["Four individual Sessions","https://calendly.com/farhan-ahmed/couples-session"],
-    [  " Couples Sessions ",'https://calendly.com/farhan-ahmed/couples-session'],
-      ["Four couples Sessions","https://calendly.com/farhan-ahmed/first-couples-session"],
-      ["Premarital Coaching","https://calendly.com/farhan-ahmed/premarital-coaching"]
+      [
+        "Individual Sessions",
+        "https://calendly.com/farhan-ahmed/individual-session",
+      ],
+      [
+        "Four individual Sessions",
+        "https://calendly.com/farhan-ahmed/couples-session",
+      ],
+      [
+        " Couples Sessions ",
+        "https://calendly.com/farhan-ahmed/couples-session",
+      ],
+      [
+        "Four couples Sessions",
+        "https://calendly.com/farhan-ahmed/first-couples-session",
+      ],
+      [
+        "Premarital Coaching",
+        "https://calendly.com/farhan-ahmed/premarital-coaching",
+      ],
     ],
   },
   {
     id: "Asmaa_Mahran",
-    profileImg: teacher5,
+    profileImg: teacher3,
     name: "Asmaa Mahran",
     slugName: "Asmaa_Mahran",
     designation: "Founder & Coach",
@@ -49,15 +64,27 @@ const appointmentDetails = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel",
     sessionsAvailability: [
-    [  "Individual Sessions","https://calendly.com/asmaa-mahran/individual-session"],
-     [ "Four individual Sessions","https://calendly.com/asmaa-mahran/first-individual-session"],
-      [" Couples Sessions ","https://calendly.com/asmaa-mahran/couples-session"],
-     [ "Four couples Sessions","https://calendly.com/asmaa-mahran/first-couples-session"]
+      [
+        "Individual Sessions",
+        "https://calendly.com/asmaa-mahran/individual-session",
+      ],
+      [
+        "Four individual Sessions",
+        "https://calendly.com/asmaa-mahran/first-individual-session",
+      ],
+      [
+        " Couples Sessions ",
+        "https://calendly.com/asmaa-mahran/couples-session",
+      ],
+      [
+        "Four couples Sessions",
+        "https://calendly.com/asmaa-mahran/first-couples-session",
+      ],
     ],
   },
   {
     id: "Rehena_Rana",
-    profileImg: teacher3,
+    profileImg: teacher5,
     name: "Rehena Rana",
     slugName: "Rehena_Rana",
     designation: "Coach",
@@ -66,10 +93,19 @@ const appointmentDetails = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel",
     sessionsAvailability: [
-      ["Individual Sessions","https://calendly.com/rehena-rana/individual-session"],
-     [ "Four individual Sessions","https://calendly.com/rehena-rana/first-individual-session"],
-       
-     [ "Premarital Coaching","https://calendly.com/rehena-rana/premarital-coaching"]
+      [
+        "Individual Sessions",
+        "https://calendly.com/rehena-rana/individual-session",
+      ],
+      [
+        "Four individual Sessions",
+        "https://calendly.com/rehena-rana/first-individual-session",
+      ],
+
+      [
+        "Premarital Coaching",
+        "https://calendly.com/rehena-rana/premarital-coaching",
+      ],
     ],
   },
   {
@@ -83,32 +119,36 @@ const appointmentDetails = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel",
     sessionsAvailability: [
-      ["Individual Sessions","https://calendly.com/rawand-abdelghani/individual-session"],
-      ["Four individual Sessions","https://calendly.com/rawand-abdelghani/first-individual-session"]
-      
+      [
+        "Individual Sessions",
+        "https://calendly.com/rawand-abdelghani/individual-session",
+      ],
+      [
+        "Four individual Sessions",
+        "https://calendly.com/rawand-abdelghani/first-individual-session",
+      ],
     ],
   },
 
-  {
-    id: "Mohammed_Bemat_Coach",
-    profileImg: teacher6,
-    name: "Mohammed Bemat Coach",
-    slugName: "Mohammed_Bemat_Coach",
-    designation: "Founder & Coach",
-    status: "Masters in Clinical Mental Health Counseling",
-    email: "farhan.ahmed@ihsancoaching.com",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel",
-    sessionsAvailability: [
-      ["Individual Sessions","https://calendly.com/mohammed-bemat/individual-session"],
-      ["First individual Session","https://calendly.com/mohammed-bemat/first-individual-session"],
-     [ " Couples Sessions ","https://calendly.com/mohammed-bemat/couples-session"],
-     [ "First couples Sessions","https://calendly.com/mohammed-bemat/first-couples-session"]
-    ],
-  },
-  
+  // {
+  //   id: "Mohammed_Bemat",
+  //   profileImg: teacher6,
+  //   name: "Mohammed Bemat",
+  //   slugName: "Mohammed_Bemat",
+  //   designation: "Founder & Coach",
+  //   status: "Masters in Clinical Mental Health Counseling",
+  //   email: "farhan.ahmed@ihsancoaching.com",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel",
+  //   sessionsAvailability: [
+  //     ["Individual Sessions","https://calendly.com/mohammed-bemat/individual-session"],
+  //     ["First individual Session","https://calendly.com/mohammed-bemat/first-individual-session"],
+  //    [ " Couples Sessions ","https://calendly.com/mohammed-bemat/couples-session"],
+  //    [ "First couples Sessions","https://calendly.com/mohammed-bemat/first-couples-session"]
+  //   ],
+  // },
 ];
-const appointmentDetails2= [
+const appointmentDetails2 = [
   {
     id: "Mufti_Zeshan_Ahmed",
     profileImg: teacher7,
@@ -118,8 +158,7 @@ const appointmentDetails2= [
     status: "Masters in Clinical Mental Health Counseling",
     email: "farhan.ahmed@ihsancoaching.com",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel… learn more",
-     
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel",
   },
   {
     id: "Imam_Azhar_Subedar",
@@ -130,16 +169,18 @@ const appointmentDetails2= [
     status: "Masters in Clinical Mental Health Counseling",
     email: "farhan.ahmed@ihsancoaching.com",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel… learn more",
-    
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo LeoLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et justo Leo. Phasellus pulvinar dolor et porta feugiat. Nunc gravida ligula eros. Quisque ut rutrum risus. Cras lorem nibh, rhoncus nec leo non, imperdiet luctus orci. In pharetra gravida sapien id mollis. Quisque at urna enim. Vestibulum mollis, mi vel volutpat mattis, nisl augue mattis dolor, at condimentum urna lacus rhoncus urna. Nulla vitae quam porta, dictum lacus eu, porttitor mi. Aliquam facilisis nisl eget ultrices dictum. Praesent ullamcorper sed lorem vel",
   },
-]
+];
 
 export default function BookAppointment({ id }) {
   return (
     <Layout>
       <Hero data={heroContent} />
-      <Content appointments={appointmentDetails} appointments2={appointmentDetails2} />
+      <Content
+        appointments={appointmentDetails}
+        appointments2={appointmentDetails2}
+      />
       <GrayDiv />
     </Layout>
   );

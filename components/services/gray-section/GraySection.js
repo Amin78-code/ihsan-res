@@ -17,7 +17,7 @@ const GraySection = () => {
             available programs and seminars.
           </p>
           <Link href="/contact"> 
-            <a className="fgb w-[90px] md:w-[160px] h-[30px] md:h-[45px] bg-[#fff] text-[#182657] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] rounded-[50px] px-[5px] py-[10px] hover:opacity-[.8] cursor-pointer mb-[20px] flex justify-center items-center mt-[30px] mx-auto">
+            <a className="fgb w-[90px] md:w-[160px] h-[30px] md:h-[45px] bg-[#fff] text-[#0F2E3C] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] rounded-[50px] px-[5px] py-[10px] cursor-pointer mb-[20px] flex justify-center items-center mt-[30px] mx-auto hover:bg-[#0F2E3C] hover:text-[#fff]">
               Get Started
             </a>
           </Link>

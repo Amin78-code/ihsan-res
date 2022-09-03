@@ -8,14 +8,14 @@ const HeadingText = () => {
           Coaching through the
           <br /> lens of culture
         </h2>
-        <p className="fgr text-[#292929] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] max-w-[865px] mx-auto">
+        <p className="fgr text-[#292929] text-[12px] md:text-[16px] lg:text-[18px] leading-[16px] md:leading-[26px] max-w-[865px] mx-auto">
           Being fully open and transparent with a coach or therapist is the only
           way to find the root of your problems. But that takes trust and an
           understanding of your situation in the context of your background and
           culture - which can be especially hard to find for Muslims growing up
           in the West.
         </p>
-        <p className="fgr text-[#292929] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] max-w-[865px] mx-auto mt-[20px]">
+        <p className="fgr text-[#292929] text-[12px] md:text-[16px] lg:text-[18px] leading-[16px] md:leading-[26px] max-w-[865px] mx-auto mt-[20px]">
           Ihsan Coaching fills the gap within our Islamic communities, providing
           access to licensed therapists that truly understand your background
           and unique perspective. Fully remote and accessible nationwide, our

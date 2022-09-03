@@ -205,7 +205,7 @@ ul.list-square li::marker {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  transition: 0.3s;
   right: -11px;
 }
 

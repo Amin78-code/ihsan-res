@@ -51,7 +51,10 @@ export default function Navigation() {
       <div className="hidden lg:h-[30px] md:block h-[50px] bg-[#fff]">
         <ul className="myContainer flex justify-end items-center h-[100%]">
           <li className="px-[15px]  text-[15px] fgb">
-          <Link href="/about-us/#join_team">Careers</Link>
+            <Link href="/book-appointment/#rate">Rates</Link>
+          </li>
+          <li className="px-[15px]  text-[15px] fgb">
+            <Link href="/about-us/#join_team">Careers</Link>
           </li>
           <li className="px-[15px]  text-[15px] fgb">
             <Link href="/blogs">Blog</Link>
@@ -133,7 +136,7 @@ export default function Navigation() {
             </li>
             <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[12px] md:text-[16px] py-[15px] xl:py-[30px] xl:pr-[10px]">
               <Link href="/book-appointment">
-                <a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[25px] py-[10px] hover:opacity-[.8]">
+                <a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[25px] py-[10px] hover:opacity-[.8 ] hover:text-[#0F2E3C] hover:bg-[#fff] ">
                   Get Started
                 </a>
               </Link>

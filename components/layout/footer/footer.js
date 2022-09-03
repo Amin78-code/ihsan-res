@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="flex justify-center items-center gap-x-[20px]">
               <Link href="/contact">
                 <a>
-                  <button className="fgr w-[120px] md:w-[210px] h-[28px] md:h-[50px] border-[1px] md:border-[3px] border-[#fff] flex justify-between items-center bg-[#fff] text-[12px] md:text-[16px] text-[#555555] rounded-[50px] px-[11px] md:px-[30px] py-[7px] md:py-[10px] hover:border-[#FAF7F2] hover:bg-[#0F2E3C] hover:text-[#fff] group">
+                  <button className="fgr w-[120px] md:w-[210px] h-[28px] md:h-[50px] border-[1px] md:border-[3px] border-[#fff] flex justify-between items-center bg-[#fff] text-[12px] md:text-[16px] text-[#555555] rounded-[50px] px-[11px] md:px-[30px] py-[7px] md:py-[10px] hover:border-[#FAF7F2 ] hover:bg-[#AE8B5C] hover:text-[#fff] hover:border-[#AE8B5C] group">
                     Get started
                     <BsFillArrowRightCircleFill className="text-[#555] text-[12px] md:text-[20px] group-hover:text-[#fff]" />
                   </button>
@@ -28,9 +28,9 @@ const Footer = () => {
               </Link>
               <Link href="/about-us/#our_team">
                 <a>
-                  <button className="fgr w-[120px] md:w-[210px] h-[28px] md:h-[50px] border-[1px] md:border-[3px] border-[#FAF7F2] flex justify-between items-center bg-[#0F2E3C] text-[12px] md:text-[16px] text-[#fff] rounded-[50px] px-[11px] md:px-[30px] py-[7px] md:py-[10px] hover:text-[#555555] hover:bg-[#fff] group">
+                  <button className="fgr w-[120px] md:w-[210px] h-[28px] md:h-[50px] border-[1px] md:border-[3px] border-[#FAF7F2] flex justify-between items-center bg-[#0F2E3C] text-[12px] md:text-[16px] text-[#fff] rounded-[50px] px-[11px] md:px-[30px] py-[7px] md:py-[10px] hover:text-[#fff] hover:bg-[#AE8B5C] hover:border-[#AE8B5C] group">
                     Meet the team
-                    <BsFillArrowRightCircleFill className="text-[#fff] text-[12px] md:text-[20px] group-hover:text-[#555]" />
+                    <BsFillArrowRightCircleFill className="text-[#fff] text-[12px] md:text-[20px] group-hover:text-[#fff]" />
                   </button>
                 </a>
               </Link>
