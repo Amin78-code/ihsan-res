@@ -23,7 +23,7 @@ const Testimonial = ({ testimonials, mainHeading, blogPage }) => {
     return (
       <BsChevronRight
         onClick={onClick}
-        className="absolute right-[-8%] sm:right-[-4%] md:right-[2%] top-[44%] text-[15px] sm:text-[20px] text-[#9D9D9D] z-[2] cursor-pointer"
+        className="absolute right-[-8%] sm:right-[-4%] md:right-[-1%] top-[50%] translate-y-[-50%] text-[15px] sm:text-[20px] text-[#9D9D9D] z-[2] cursor-pointer"
       />
     );
   }
@@ -33,7 +33,7 @@ const Testimonial = ({ testimonials, mainHeading, blogPage }) => {
     return (
       <BsChevronLeft
         onClick={onClick}
-        className="absolute left-[-8%] sm:left-[-4%] md:left-[2%] top-[44%] text-[15px] sm:text-[20px] text-[#9D9D9D] z-[2] cursor-pointer"
+        className="absolute left-[-8%] sm:left-[-4%] md:left-[-1%] top-[50%] translate-y-[-50%] text-[15px] sm:text-[20px] text-[#9D9D9D] z-[2] cursor-pointer"
       />
     );
   }
@@ -48,7 +48,7 @@ const Testimonial = ({ testimonials, mainHeading, blogPage }) => {
         >
           {mainHeading}
         </h1>
-        <div className="max-w-[930px] bg-[#F2F2F2] mx-auto pt-[23px] md:pt-[45px] pb-[23px] md:pb-[25px] slider-main mt-[22px] md:mt-[35px] px-[26px] md:px-[30px] ">
+        <div className="max-w-[1000px] bg-[#F2F2F2] mx-auto pt-[23px] md:pt-[35px] pb-[23px] md:pb-[35px] slider-main mt-[22px] md:mt-[35px] px-[26px] md:px-[30px] ">
           <Slider {...settings}>
             {testimonials?.map((testimonail, index) => {
               return (
@@ -60,7 +60,7 @@ const Testimonial = ({ testimonials, mainHeading, blogPage }) => {
                     return (
                       <p
                         key={paragraph}
-                        className="max-w-[700px] mx-auto text-[10px] md:text-[14px] leading-[12px] md:leading-[22px]"
+                        className="max-w-[90%] lg:max-w-[800px] mx-auto text-[10px] md:text-[14px] leading-[12px] md:leading-[22px]"
                       >
                         {paragraph}
                       </p>
@@ -74,7 +74,7 @@ const Testimonial = ({ testimonials, mainHeading, blogPage }) => {
                       <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[11px] md:text-[16px] text-[#555555] text-left mt-[7px ] md:mt-[5px ]">
                         {testimonail.name}
                       </h6>
-                      <h5 className="fgr max-w-[180px] sm:max-w-[100%] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
+                      <h5 className="fgr max-w-[180px] sm:max-w-[100%] leading-[12px] md:leading-[26px] text-[11px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-5px]">
                         {testimonail.designation}
                       </h5>
                     </div>
