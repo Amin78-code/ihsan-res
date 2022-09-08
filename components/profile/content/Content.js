@@ -51,21 +51,27 @@ const Content = ({ data, pb }) => {
                 <h6 className="fgr font-[600] text-[#292929] text-[13px] leading-[13px] md:text-[18px] md:leading-[28px] pb-[7px]">
                   Available for:
                 </h6>
+                {<p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[26px] text-[#555555]">
+                  {data.id=='Imam_Azhar_Subedar' || data.id=='Mufti_Zeshan_Ahmed'? 'Religious Consultation ':'Individual Coaching'}
+                </p>
+}
                 <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[26px] text-[#555555]">
-                  Individual Coaching
+                {data.id=='Imam_Azhar_Subedar' || data.id=='Mufti_Zeshan_Ahmed'? '':'Couples Coaching'}
+
+                  
                 </p>
                 <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[26px] text-[#555555]">
-                  Couples Coaching
-                </p>
-                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[26px] text-[#555555]">
-                  Premarital Coaching
+                {data.id=='Imam_Azhar_Subedar'|| data.id=='Mufti_Zeshan_Ahmed'  ?   '':'Premarital Coaching'}
+
+                  
+                  
                 </p>
               </div>
               <div className="w-ful l lg:  w-[50%]      md:w-[100%]    sc1350:w-[50%] flex justify-end lg:justify-start">
                 <Link href="/consultation">
                   <a>
                     <button className="fgr w-[120px] md:w-[210px] h-[28px] md:h-[50px] border-[1px] md:border-[3px] border-[#FAF7F2] flex justify-between items-center bg-[#0F2E3C] text-[12px] md:text-[16px] text-[#fff] rounded-[50px] px-[11px] md:px-[30px] py-[7px] md:py-[10px] hover:text-[#555555] hover:bg-[#fff] group">
-                      Appointment
+                      Get started
                       <BsFillArrowRightCircleFill className="text-[#fff] text-[12px] md:text-[20px] group-hover:text-[#555]" />
                     </button>
                   </a>

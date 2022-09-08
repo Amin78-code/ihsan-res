@@ -58,7 +58,7 @@ const appointmentDetails = [
     profileImg: teacher3,
     name: "Asmaa Mahran",
     slugName: "Asmaa_Mahran",
-    designation: "Founder & Coach",
+    designation: "Coach",
     status: "Masters in Clinical Mental Health Counseling",
     email: "farhan.ahmed@ihsancoaching.com",
     description:
@@ -113,7 +113,7 @@ const appointmentDetails = [
     profileImg: teacher4,
     name: "Rawand Abdelghani",
     slugName: "Rawand_Abdelghani",
-    designation: "Founder & Coach",
+    designation: "Coach",
     status: "Masters in Clinical Mental Health Counseling",
     email: "farhan.ahmed@ihsancoaching.com",
     description:
@@ -154,7 +154,7 @@ const appointmentDetails2 = [
     profileImg: teacher7,
     name: "Mufti Zeshan Ahmed",
     slugName: "Mufti_Zeshan_Ahmed",
-    designation: "Founder & Coach",
+    designation: "Religious Consultant",
     status: "Masters in Clinical Mental Health Counseling",
     email: "farhan.ahmed@ihsancoaching.com",
     description:
@@ -165,7 +165,7 @@ const appointmentDetails2 = [
     profileImg: teacher8,
     name: "Imam Azhar Subedar",
     slugName: "Imam_Azhar_Subedar",
-    designation: "Founder & Coach",
+    designation: "Religious Consultant",
     status: "Masters in Clinical Mental Health Counseling",
     email: "farhan.ahmed@ihsancoaching.com",
     description:

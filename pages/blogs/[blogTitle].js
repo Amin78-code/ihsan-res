@@ -14,11 +14,11 @@ import parentCoaching2 from "../../assets/images/blogs/Parent-Coaching-blog-imag
 
 const heroContentAnxiety = {
   title: "Anxiety Management Techniques",
-  paragraph1: "August 26, 2022",
+  // paragraph1: "August 26, 2022",
 };
 const heroContentParenting = {
   title: "Parenting Management Techniques",
-  paragraph1: "August 26, 2022",
+  // paragraph1: "August 26, 2022",
 };
 const AnxietyManagement = [
   {

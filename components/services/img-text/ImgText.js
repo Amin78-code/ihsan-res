@@ -6,7 +6,7 @@ const ImgText = ({ data, pb, flip }) => {
     <section
       className={`w-full bg-[#fff] ${
         pb
-          ? "pt-[55px] md:pt-[100px] pb-[30px] sm:pb-[70px] xl:pb-[250px]"
+          ? "pt-[55px] md:pt-[100px] pb-[30px] sm:pb-[70px] xl:pb-[150px]"
           : "pt-[55px] md:pt-[100px] pb-[15px] xl:pb-[90px] "
       }`}
     >

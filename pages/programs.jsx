@@ -20,27 +20,27 @@ export default function Programs() {
         "Marriage is God’s civilizational sunnah and from the great gifts given to humankind and an obligation for able Muslims. Amongst the great challenges that our Muslim community is facing in America is the facilitation of marriage and in particular healthy marriages. Ihsan coaching’s earnest and contextualized approach towards marital coaching is critical in our time given the predicament we find ourselves in. Ihsaans multi dimensional approach includes modern tools and resources, but most importantly is rooten in Islamic values and presented a spiritual dimension towards marital coaching, something missing in our time. We ask Allah to open doors for Farhan and his team, and benefit the ummah by them.",
       ],
       profileImg: testiominal2,
-      name: 'Shaykh Umair Haseeb',
-      designation: 'Director of Religious Affairs at Taleef',
+      name: "Shaykh Umair Haseeb",
+      designation: "Director of Religious Affairs at Taleef",
     },
     {
       paragraphs: [
         "Ihsaan Coaching fills a much needed void in muslim communities. As an Imam I have personally worked with Ihsaan coaching and also have recommended many congregants to use Ihsaan for help with marriage, anxiety, and depression and have seen nothing but positive results alhamdulilah",
       ],
       profileImg: testiominal1,
-      name: 'Shaykh Ilir Aliji',
-      designation: 'Imam at Masjid Albani and Instructor at Islamic Institute of Texas',
+      name: "Shaykh Ilir Aliji",
+      designation:
+        "Imam at Masjid Albani and Instructor at Islamic Institute of Texas",
     },
     {
       paragraphs: [
         "In a time where members of our communities are increasingly facing mental health issues, marital disputes etc, it is imperative to have services which cater to their needs. Alhamdulillah, it is a breath of fresh air that Br. Farhan and his team at Ihsan Coaching have been doing just that. They have stepped up to provide a needed platform for Muslims facing these realistic issues. Their coaches provide a balance of both the Islamic as well as secular perspectives when dealing with their clients. Alhamdulillah, our community has also established a partnership with Ihsan Coaching, so that our members also benefit from their services. I hope many others realize that there is someone to talk to when needing help. Please do not be silent and reach out to them! I highly recommend their organization. May Allah continue to grant them success and the ability to help others.",
       ],
       profileImg: profile,
-      name: 'Mufti Asif Umar',
-      designation: 'Islamic Wills USA',
+      name: "Mufti Asif Umar",
+      designation: "Islamic Wills USA",
     },
   ];
-
 
   const settings = {
     speed: 500,
@@ -59,6 +59,20 @@ export default function Programs() {
     slidesToScroll: 1,
     className: "w-[100%] flex outline-0 ",
   };
+  const settings3 = {
+    speed: 500,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    className: "w-[100%] flex outline-0 ",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+  };
+
 
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -69,7 +83,6 @@ export default function Programs() {
       />
     );
   }
-
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -282,21 +295,26 @@ export default function Programs() {
         testimonials={testimonials}
         mainHeading={"See what previous seminar hosts had to say"}
         blogPage
-      /> 
+      />
       {/* Image gellary  */}
-      <section className="my-10 ">
-        <div className="main__container  ">
-          <div className="images-slider w-[100%] mx- 2 md:mx- 0 flex justify-between gap-x-[2%] md:gap-x-[2%] px-0">
+      <section className="my-10 ] ">
+        <div className="main__container ">
+          <div className="images-slider w-[100%] mx- 2 md:mx-0 flex-1 justify-between gap-x-[2%] md:gap-x-[2%] px-0">
             {/* <Slider {...settings2} > */}
-            <div className=" w-[30%] image_container flex justify-center items-center bg-[#0F2E3C0D] ">
+            <Slider {...settings3} className="w-[60%] flex outline-0 m-auto ">
+            <div className=" w-[30%] image_container flex justify-center items-center  bg-[#0F2E3C0D] ">
               <Image className="" src={Image1} alt="Program1" />
             </div>
-            <div className=" w-[35%] image_container flex justify-center items-center bg-[#0F2E3C0D] ">
+            <div className=" w-[30%] lg:h-[360px] image_container flex justify-center items-center bg-[#0F2E3C0D] ">
               <Image className="" src={Image2} alt="Program2" />
             </div>
             <div className=" w-[30%] image_container flex justify-center items-center bg-[#0F2E3C0D] ">
               <Image src={Image3} alt="Program3" />
             </div>
+         
+  
+
+            </Slider>
             {/* </Slider> */}
           </div>
         </div>
@@ -365,6 +383,7 @@ export default function Programs() {
           </div>
         </div>
       </section>
+
     </Layout>
   );
 }
