@@ -5,7 +5,7 @@ import { data } from "autoprefixer";
 
 const AppointmentCard = ({ appointment }) => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row  ">
+    <div className="flex flex-col -reverse lg:flex-row  ">
       <div className="w-full lg:max-w-[410px]">
         <div className="">
           {appointment?.profileImg && (
@@ -18,7 +18,7 @@ const AppointmentCard = ({ appointment }) => {
         </div>
       </div>
 
-      <div className="w-full pl-0 lg:pl-[30px] mb-[30px] lg:mb-0">
+      <div className="w-full pl-0 lg:pl-[30px] mb-[20px] md:mb-[30px] lg:mb-0">
         <h1 className="fpr text-[32px] md:text-[42px] leading-[32px] md:leading-[34px]  text-[#0F2E3C]  ">
           {appointment.name}
         </h1>
@@ -46,7 +46,7 @@ const AppointmentCard = ({ appointment }) => {
                   rel="noreferrer"
                   key={sessionAvailability?.length >0  && sessionAvailability[0]}
                   href={sessionAvailability?.length >0  && sessionAvailability[1]?sessionAvailability[1]:""}
-                  className="w-[36%] text-[#0F2E3C] hover:opacity-[0.8] fgb text-[12px] no-underline md:text-[18px] leading-[18px] md:leading-[24px] hover:text-[#555555] pt-[3px]"
+                  className="w-[50%] sm:w-[36%] text-[#0F2E3C] hover:opacity-[0.8] fgb text-[12px] no-underline md:text-[18px] leading-[18px] md:leading-[24px] hover:text-[#555555] pt-[3px]"
                   >
                     <strong>{ sessionAvailability?.length >0  && sessionAvailability[0]}</strong>
                   </a> 

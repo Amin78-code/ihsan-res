@@ -46,7 +46,7 @@ const profiles = [
   },
   {
     id: "Rehena_Rana",
-    profileImg: person3,
+    profileImg: person5,
     name: "Rehena Rana",
     slugName: "Rehena_Rana",
     designation: "Coach",
@@ -62,7 +62,7 @@ const profiles = [
     profileImg: person4,
     name: "Rawand Abdelghani",
     slugName: "Rawand_Abdelghani",
-    designation: "Coaxh",
+    designation: "Coach",
     status: "Master’s of Science in Social Work",
     email: "rawand.abdelghani@ihsancoaching.com",
     paragraph1:
@@ -72,7 +72,7 @@ const profiles = [
   },
   {
     id: "Asmaa_Mahran",
-    profileImg: person5,
+    profileImg: person3,
     name: "Asmaa Mahran",
     slugName: "Asmaa_Mahran",
     designation: "Coach",
@@ -99,7 +99,7 @@ const profiles = [
   {
     id: "Mufti_Zeshan_Ahmed",
     profileImg: person7,
-    name: "Mufti Zeshan_Ahmed",
+    name: "Mufti Zeshan Ahmed",
     slugName: "Mufti_Zeshan Ahmed",
     designation: "Religious Consultant",
     status: "Resident Scholar at Masjid Uthman",

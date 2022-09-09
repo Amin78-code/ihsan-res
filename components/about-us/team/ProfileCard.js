@@ -29,7 +29,7 @@ const ProfileCard = ({ data }) => {
         </span>
       </span>
       <Link href={`/profile/${data.slugName}`}>
-        <a className="fgr w-[80px ] w-[150px] h-[25px] md:h-[40px] bg-[#AE8B5C] text-[#fff] text-[12px] md:text-[16px] leading-[36px] rounded-[50px] px-[5px] py-[10px] hover:opacity-[.8] cursor-pointer mb-0 md:mb-[20px] flex justify-center items-center mt-0 md:mt-[12px] hover:text-[#AE8B5C] hover:bg-[#fff] border-[1px] border-[#AE8B5C]">
+        <a className="fgr w-[110px] md:w-[150px] h-[35px] md:h-[40px] bg-[#AE8B5C] text-[#fff] text-[12px] md:text-[16px] leading-[36px] rounded-[50px] px-[5px] py-[10px] hover:opacity-[.8] cursor-pointer mb-0 md:mb-[20px] flex justify-center items-center mt-0 md:mt-[12px] hover:text-[#AE8B5C] hover:bg-[#fff] border-[1px] border-[#AE8B5C]">
           View profile
         </a>
       </Link>

@@ -39,7 +39,7 @@ const Testimonial = ({ testimonials, mainHeading, blogPage }) => {
   }
 
   return (
-    <section className="bg-[#fff] pt-[47px] md:pt-[70px] pb-[30px] md:pb-[70px]">
+    <section className="bg-[#fff] pt-[30px] md:pt-[70px] pb-[30px] md:pb-[70px]">
       <div className="myContainer">
         <h1
           className={`fpr text-[#0F2E3C] text-[24px] md:text-[40px] leading-[24px] md:leading-[45px] text-center ${

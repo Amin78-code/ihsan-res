@@ -102,16 +102,16 @@ const DarkSection = () => {
             Our services
           </h2>
           <div className="flex flex-wrap justify-between items-center gap-x-[0] md:gap-x-[7%] gap-y-[26px] md:gap-y-[50px]">
-            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[450px] flex items-start">
+            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[100%] sm:min-w-[450px] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-5px] mt-[-20px] mr-[15px]">
+              <div className="min-w-[23px] md:min-w-[45px] w-[23px] md:w-[45px] min-h-[23px] md:min-h-[45px] h-[23px] md:h-[45px] md:mt-[-5px] mt-0 sm:mt-[-20px] mr-[7px] sm:mr-[15px]">
                 <Image src={person} alt="person" />
               </div>
               <div>
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Individual Coaching
                 </h4>
-                <p className="fgr max-w-[385px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[100%] sm:max-w-[385px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   One-on-one coaching to help build self-confidence, improve
                   relationships, support careers, manage anxiety, and achieve
                   your personal goals.
@@ -122,9 +122,9 @@ const DarkSection = () => {
               </div>
             </div>
 
-            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[450px] flex items-start">
+            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[100%] sm:min-w-[450px] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-5px] mt-[-20px] mr-[15px]">
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-5px] mt-0 sm:mt-[-20px] mr-[7px] sm:mr-[15px]">
                 
                 <Image src={ring} alt="image" />
               </div>
@@ -132,7 +132,7 @@ const DarkSection = () => {
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Premarital Coaching
                 </h4>
-                <p className="fgr max-w-[360px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[100%] sm:max-w-[360px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   Assess your compatibility and get a better understanding of
                   what constitutes an ideal Islamic marriage.
                   <Link href="/premarital">
@@ -142,16 +142,16 @@ const DarkSection = () => {
               </div>
             </div>
 
-            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[450px] flex items-start">
+            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[100%] sm:min-w-[450px] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-7px] mt-[-20px] mr-[15px]">
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-7px] mt-0 sm:mt-[-20px] mr-[7px] sm:mr-[15px]">
                 <Image src={heart} alt="heart" />
               </div>
               <div>
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Marital Coaching
                 </h4>
-                <p className="fgr max-w-[355px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[100%] sm:max-w-[355px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   By understanding your partner better, the easier it’ll be to
                   find solutions to conflicts. Learn strategies to communicate
                   and resolve conflicts more effectively.
@@ -162,9 +162,9 @@ const DarkSection = () => {
               </div>
             </div>
 
-            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[450px] flex items-start">
+            <div className="w-[100%] sm:w-[auto] md:w-[46% ] min-w-[100%] sm:min-w-[450px] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-5px] mt-[-20px] mr-[15px]">
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] md:mt-[-5px] mt-0 sm:mt-[-20px] mr-[7px] sm:mr-[15px]">
                 
                 <Image src={mosque} alt="mosque" />
               </div>
@@ -172,7 +172,7 @@ const DarkSection = () => {
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Religious Consulting
                 </h4>
-                <p className="fgr max-w-[385px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[100%] sm:max-w-[385px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   Designed for either individuals or couples, speak directly to
                   Islamic scholars about any faith-based concerns that may be
                   troubling you.

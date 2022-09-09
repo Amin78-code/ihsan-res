@@ -7,11 +7,12 @@ import pattern from "../assets/images/pattern.png";
 import Image1 from "../assets/images/program/9.jpg";
 import Image2 from "../assets/images/program/5.jpg";
 import Image3 from "../assets/images/program/7.jpg";
-import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import Testimonial from "../components/home/testimonial/Testimonial";
 import profile from "../assets/images/profile.jpeg";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import testiominal1 from "../assets/images/home/testimonial2.jpeg";
 import testiominal2 from "../assets/images/home/testimonial1.jpeg";
+import Testimonial from "../components/home/testimonial/Testimonial";
+
 export default function Programs() {
   const testimonials = [
     {
@@ -42,35 +43,58 @@ export default function Programs() {
     },
   ];
 
-  const settings = {
-    speed: 500,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    className: "w-[100%] outline-0 ",
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
-  };
+  // const settings = {
+  //   speed: 500,
+  //   infinite: true,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   className: "w-[100%] outline-0 ",
+  //   nextArrow: <SampleNextArrow />,
+  //   prevArrow: <SamplePrevArrow />,
+  // };
 
-  const settings2 = {
-    speed: 500,
+  // const settings2 = {
+  //   speed: 500,
+  //   infinite: true,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   className: "w-[100%] flex outline-0 ",
+  // };
+  const settings3 = {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    className: "w-[100%] flex outline-0 ",
-  };
-  const settings3 = {
-    speed: 500,
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
+    centerMode:true,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 400,
+    autoplaySpeed: 6000,
     cssEase: "linear",
-    className: "w-[100%] flex outline-0 ",
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    className: "w-[100%] flex outline-0 center",
+    arrows: false,
+    centerPadding: "60px",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
 
@@ -154,7 +178,7 @@ export default function Programs() {
               Islam.
             </p>
 
-            <h5 className="font-bold text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-[50px] ">
+            <h5 className="font-bold text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-[20px] md:mt-[50px] ">
               Topics covered:
             </h5>
             <ul className="list-disc list-inside  ">
@@ -179,7 +203,7 @@ export default function Programs() {
               </li>
             </ul>
 
-            <h2 className="fpr text-[24px] md:text-[35px] leading-[24px] md:leading-[35px]  mt-[70px] text-[#0F2E3C] ">
+            <h2 className="fpr text-[24px] md:text-[35px] leading-[24px] md:leading-[35px]  mt-[30px] md:mt-[70px] text-[#0F2E3C] ">
               How to lead a more fulfilling marriage
             </h2>
             <p className="text-[12px] mt-4 md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] ">
@@ -195,7 +219,7 @@ export default function Programs() {
               that we are living a fulfilling marriage and doing what we can to
               please Allah SWT.
             </p>
-            <h5 className="font-bold text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-[50px] ">
+            <h5 className="font-bold text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-[20px] md:mt-[50px] ">
               Topics covered:
             </h5>
             <ul className="list-disc list-inside  ">
@@ -218,7 +242,7 @@ export default function Programs() {
               </li>
             </ul>
 
-            <h2 className="fpr text-[24px] md:text-[35px] leading-[24px] md:leading-[35px]  mt-[70px] text-[#0F2E3C] ">
+            <h2 className="fpr text-[24px] md:text-[35px] leading-[24px] md:leading-[35px]  mt-[30px] md:mt-[70px] text-[#0F2E3C] ">
               Proving the existence of the Creator
             </h2>
             <p className="text-[12px] mt-4 md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] ">
@@ -296,29 +320,41 @@ export default function Programs() {
         mainHeading={"See what previous seminar hosts had to say"}
         blogPage
       />
+
       {/* Image gellary  */}
       <section className="my-10 ] ">
-        <div className="main__container ">
-          <div className="images-slider w-[100%] mx- 2 md:mx-0 flex-1 justify-between gap-x-[2%] md:gap-x-[2%] px-0">
+        <div className="main__containe r ">
+          <div className="images-slider w-[100%] mx- 2 md:mx-0 flex- 1 justify-betwee n gap-x-[2% ] md:gap-x-[2% ] px-0">
             {/* <Slider {...settings2} > */}
-            <Slider {...settings3} className="w-[60%] flex outline-0 m-auto ">
-            <div className=" w-[30%] image_container flex justify-center items-center  bg-[#0F2E3C0D] ">
-              <Image className="" src={Image1} alt="Program1" />
-            </div>
-            <div className=" w-[30%] lg:h-[360px] image_container flex justify-center items-center bg-[#0F2E3C0D] ">
-              <Image className="" src={Image2} alt="Program2" />
-            </div>
-            <div className=" w-[30%] image_container flex justify-center items-center bg-[#0F2E3C0D] ">
-              <Image src={Image3} alt="Program3" />
-            </div>
-         
-  
+            <Slider {...settings3} className="w-[60% ] fl ex outline- 0 m-aut o ">
+              
+              <div className="px-[13px]"><div className=" w-[200px ] h-[240px] sm:h-[170px] md:h-[230px] lg:h-[250px] xl:h-[400px] image_container flex justify-ce nter it ems-center  bg-[#0F2E3C0D] ">
+                <Image className="" src={Image1} alt="Program1" />
+              </div></div>
+              <div className="px-[13px]"><div className=" w-[200px ] h-[240px] sm:h-[170px] md:h-[230px] lg:h-[250px] xl:h-[400px] image_container flex justify-ce nter it ems-center bg-[#0F2E3C0D] ">
+                <Image className="" src={Image2} alt="Program2" />
+              </div></div>
+              <div className="px-[13px]"><div className=" w-[200px ] h-[240px] sm:h-[170px] md:h-[230px] lg:h-[250px] xl:h-[400px] image_container flex justify-ce nter it ems-center bg-[#0F2E3C0D] ">
+                <Image src={Image3} alt="Program3" />
+              </div></div>
+
+
+              <div className="px-[13px]"><div className=" w-[200px ] h-[240px] sm:h-[170px] md:h-[230px] lg:h-[250px] xl:h-[400px] image_container flex justify-ce nter it ems-center  bg-[#0F2E3C0D] ">
+                <Image className="" src={Image1} alt="Program1" />
+              </div></div>
+              <div className="px-[13px]"><div className=" w-[200px ] h-[240px] sm:h-[170px] md:h-[230px] lg:h-[250px] xl:h-[400px] image_container flex justify-ce nter it ems-center bg-[#0F2E3C0D] ">
+                <Image className="" src={Image2} alt="Program2" />
+              </div></div>
+              <div className="px-[13px]"><div className=" w-[200px ] h-[240px] sm:h-[170px] md:h-[230px] lg:h-[250px] xl:h-[400px] image_container flex justify-ce nter it ems-center bg-[#0F2E3C0D] ">
+                <Image src={Image3} alt="Program3" />
+              </div></div>
 
             </Slider>
             {/* </Slider> */}
           </div>
         </div>
       </section>
+
       {/* Contact Section */}
       <section className="relative overflow-hidden">
         <div className="absolute left-0 right-0 top-0 w-full h-[100%] overlay-img">
@@ -327,7 +363,7 @@ export default function Programs() {
         <div className="absolute left-0 right-0 top-0 w-full h-[100%] bg-[#AE8B5C] opacity-[.99]"></div>
         <div className="myContainer relative z-[2]">
           <div className="bg-[#AE8B5C ]  py-[30px] md:py-[70px] ">
-            <h2 className="fpr text-[28px] md:text-[36px] leading-[28px] md:leading-[36px]   mt-[20px] text-[#fff] max-w-[1050px] mx-auto text-center">
+            <h2 className="fpr text-[24px] md:text-[36px] leading-[28px] md:leading-[36px]   mt-[20px] text-[#fff] max-w-[1050px] mx-auto text-center">
               Ihsan Coaching is always available to partner with organizations
               to deliver programs and seminars to local communicates. Contact
               our team to enquire about programs and seminars.
@@ -337,38 +373,38 @@ export default function Programs() {
               action=""
             >
               <input
-                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[50px] w-full lg:w-[49%] rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
+                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[40px] md:h-[50px] w-full lg:w-[49%] rounded-[8px] md:rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
                 type="text"
                 placeholder="First Name*"
               />
               <input
-                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[50px] w-full lg:w-[49%] rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
+                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[40px] md:h-[50px] w-full lg:w-[49%] rounded-[8px] md:rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
                 type="text"
                 placeholder="Last Name*"
               />
               <input
-                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[50px] w-full lg:w-[49%] rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
+                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[40px] md:h-[50px] w-full lg:w-[49%] rounded-[8px] md:rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
                 type="text"
                 placeholder="Email Address*"
               />
               <input
-                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[50px] w-full lg:w-[49%] rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
+                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[40px] md:h-[50px] w-full lg:w-[49%] rounded-[8px] md:rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
                 type="text"
                 placeholder="Phone Number*"
               />
               <input
-                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[50px] w-full lg:w-[49%] rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
+                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[40px] md:h-[50px] w-full lg:w-[49%] rounded-[8px] md:rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
                 type="text"
                 placeholder="Organization*"
               />
               <input
-                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[50px] w-full lg:w-[49%] rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
+                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[40px] md:h-[50px] w-full lg:w-[49%] rounded-[8px] md:rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]"
                 type="text"
                 placeholder="Topic Requested  "
               />
               <textarea
                 rows={4}
-                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 w-full rounded-[18px]  text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] "
+                className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 w-full rounded-[8px] md:rounded-[18px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] "
                 placeholder="Message"
               />
               <div className=" w-full">

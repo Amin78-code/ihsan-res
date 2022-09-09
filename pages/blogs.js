@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Layout from "../components/layout/layout";
 import Content from "../components/blogs/Content";
 import blog1 from "../assets/images/blogs/blog1.jpg";
-import blog2 from "../assets/images/blogs/blog1.jpg";
+import blog2 from "../assets/images/blogs/blog2.jpg";
 import blog3 from "../assets/images/blogs/blog1.jpg";
 
 const appointmentDetails = [

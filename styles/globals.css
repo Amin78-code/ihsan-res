@@ -269,6 +269,14 @@ ul.list-square li::marker {
 .slick-prev {
   background-color: gray !important;
 }
+
+/* .slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+} */
+
 @media (max-width: 991px) {
   .myContainer {
     max-width: 100%;

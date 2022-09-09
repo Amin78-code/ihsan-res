@@ -11,8 +11,8 @@ const Content = ({ data, pb }) => {
         pb ? "pb-[300px]" : ""
       }`}
     >
-      <div className="myContainer flex flex-col xl:flex-row justify-end relative">
-        <div className="flex flex-col-reverse lg:flex-row">
+      <div className="myContainer flex flex-col xl:flex-row justify-en d relative">
+        <div className="w-full flex flex-col-reverse justify-between lg:flex-row">
           <div className="w-full lg:w-[50%] pt-[30px] md:pt-[50px] lg:pt-0">
             <h1 className="fpr text-[32px] md:text-[60px] leading-[32px] md:leading-[70px]  text-[#0F2E3C] pt-[10px] md:pt-[40px]">
               {data.name}
@@ -20,7 +20,6 @@ const Content = ({ data, pb }) => {
             <h5 className="fgr text-[22px] md:text-[26px] leading-[22px] md:leading-[26px]  text-[#555555]">
               {data.designation}
             </h5>
-
             <p className="fgr max-w-[552px] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
               {data?.paragraph1}
             </p>

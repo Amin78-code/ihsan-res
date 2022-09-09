@@ -49,7 +49,7 @@ export default function Programs() {
       <section className="w-full  pt-[40px] md:pt-[70px]    pb-[30px] md:pb-[93px]   bg-[#fff]">
         <div className="myContainer">
           <div className=" w-full ">
-            <p className="  max-w-[1090px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-4 text-[#555555] ">
+            <p className="  max-w-[1090px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-0 md:mt-4 text-[#555555] ">
               When faced with a faith-based issue, it can be hard consulting
               with an Islamic scholar on a whim.
             </p>
@@ -71,7 +71,7 @@ export default function Programs() {
                   />
                 </div>
               </div>
-              <div className="md:w-[54%] p-10 ">
+              <div className="md:w-[54%] px-0 pt-5 pb-10 md:px-10 md:py-10 ">
                 {/* <h2 className=" font-bold text-[16px] leading-[28px] lg:leading-[32px] lg:text-[26px] 2xl:text-[28px]  text-[#555555]"> */}
                 <h2 className="fgb text-[18px] md:text-[20px] leading-[18px] md:leading-[36px] text-[#555555]">
                   Who is this for?

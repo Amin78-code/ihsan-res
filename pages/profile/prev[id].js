@@ -59,7 +59,7 @@ const profiles = [
     profileImg: person4,
     name: "Rawand Abdelghani",
     slugName: "Rawand_Abdelghani",
-    designation: "Coaxh",
+    designation: "Coach",
     status: "Master’s of Science in Social Work",
     email: "rawand.abdelghani@ihsancoaching.com",
     paragraph1:

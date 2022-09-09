@@ -33,7 +33,7 @@ const GrayDiv = () => {
               Religious consultation session - $99 USD
             </p>
 
-            <p className="fgr font-[600] text-[12px] md:text-[18px] leading-[16px] md:leading-[25px] text-[#555555] pt-[30px]">
+            <p className="fgr font-[600] text-[12px] md:text-[18px] leading-[16px] md:leading-[25px] text-[#555555] pt-[20px] md:pt-[30px]">
               Packages:
             </p>
             <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[25px] text-[#555555]">

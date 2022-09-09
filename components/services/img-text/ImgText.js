@@ -59,7 +59,7 @@ const ImgText = ({ data, pb, flip }) => {
             {data.paragraph2}
           </p>
           <Link href={`/${data.link}`}>
-            <a className="fgr w-[150px] h-[40px] bg-[#AE8B5C] text-[#fff] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] rounded-[50px] px-[5px] py-[13px] hover:opacity-[.8] cursor-pointer mb-[20px] flex justify-center items-center mt-[30px] hover:text-[#AE8B5C] hover:bg-[#fff] border-[1px] border-[#AE8B5C]">
+            <a className="fgr w-[110px] md:w-[150px] h-[35px] md:h-[40px] bg-[#AE8B5C] text-[#fff] text-[12px] md:text-[16px] leading-[36px] rounded-[50px] px-[5px] py-[10px] hover:opacity-[.8] cursor-pointer mb-0 md:mb-[20px] flex justify-center items-center hover:text-[#AE8B5C] hover:bg-[#fff] border-[1px] border-[#AE8B5C] mt-[10px] md:mt-[30px]">
               Learn more
             </a>
           </Link>
